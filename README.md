@@ -12,7 +12,7 @@ To get started, first create a new Python environment using Conda:
 
 ```bash
 conda create -n toolcombine python=3.10
-conda activate toolcombine
+conda activate toolcombine```
 
 Then, install the required dependencies:
 
@@ -33,12 +33,3 @@ Running via run.sh
 For ease, you can use the provided run.sh script to set up and run everything automatically. To execute the script, simply run:
 
 bash run.sh
-
-This script will automatically handle the environment setup, API configuration, and execution steps for you.
-
-
-### Key Points:
-- Ensure that each block of code is wrapped in triple backticks (```) followed by the language identifier (`bash` or `python`) to ensure proper syntax highlighting.
-- The `README` sections are now properly formatted, and everything should appear as intended on GitHub.
-
-Let me know if you need further assistance!
