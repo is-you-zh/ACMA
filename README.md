@@ -65,30 +65,32 @@ chmod +x run.sh
 - **Memory**: 16GB+ RAM recommended for optimal performance
 
 ## 📁 Repository Structure
+## 📁 Repository Structure
+
 ```
 ACMA/
-├── acma/ # Core framework implementation
-│ ├── arguments.py # CLI argument parsing
-│ ├── main.py # Entry point for ACMA
-│ ├── utils.py # Utility functions
-│ └── ...
+├── acma/                          # Core framework implementation
+│   ├── arguments.py               # CLI argument parsing
+│   ├── main.py                    # Entry point for ACMA
+│   ├── utils.py                   # Utility functions
+│   └── ...
 │
-├── stabletoolbench/ # Tool learning and evaluation toolkit
-│ ├── config.yml # API and system configuration
-│ ├── main.py # StableToolBench entry point
-│ └── ...
+├── stabletoolbench/               # Tool learning and evaluation toolkit
+│   ├── config.yml                 # API and system configuration
+│   ├── main.py                    # StableToolBench entry point
+│   └── ...
 │
-├── tools/ # Comprehensive API tool collection
-│ ├── Advertising/
-│ ├── Business/
-│ ├── Finance/
-│ ├── ... (additional categories)
-│ └── eCommerce/
+├── tools/                         # Comprehensive API tool collection
+│   ├── Advertising/               
+│   ├── Business/                  
+│   ├── Finance/                   
+│   ├── ... (additional categories)
+│   └── eCommerce/                 
 │
-├── transformers/ # Pre-trained language models
-│ ├── all-mpnet-base-v2/ # Sentence embedding model
-│ ├── gpt2/ # Base language model
-│ └── [timestamped checkpoints]/ # Training artifacts
+├── transformers/                   # Pre-trained language models
+│   ├── all-mpnet-base-v2/         # Sentence embedding model
+│   ├── gpt2/                      # Base language model
+│   └── [timestamped checkpoints]/ # Training artifacts
 │
-└── requirements.txt # Python dependencies
+└── requirements.txt                # Python dependencies
 ```
