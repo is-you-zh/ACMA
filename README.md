@@ -64,7 +64,6 @@ chmod +x run.sh
 - **Memory**: 16GB+ RAM recommended for optimal performance
 
 ## 📁 Repository Structure
-## 📁 Repository Structure
 
 ```
 ACMA/
@@ -89,7 +88,7 @@ ACMA/
 ├── transformers/                   # Pre-trained language models
 │   ├── all-mpnet-base-v2/         # Sentence embedding model
 │   ├── gpt2/                      # Base language model
-│   └── [timestamped checkpoints]/ # Training artifacts
+│   └── custom_models/              # Custom trained models
 │
 └── requirements.txt                # Python dependencies
 ```
