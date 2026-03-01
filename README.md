@@ -44,7 +44,6 @@ cd stabletoolbench
 python main.py
 ```
 
-### 4. Automated Execution
 For streamlined operation, we provide an automation script that handles the entire workflow:
 
 ```bash
