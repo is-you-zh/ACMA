@@ -31,7 +31,7 @@ pip install -r requirements.txt
 
 Before launching the framework, you'll need to configure your API credentials:
 
-- Locate the configuration files in the `stabletoolbench/` directory
+- Locate the configuration files in the `acma/config.py` directory
 - Update `api_key` and `base_url` parameters with your service provider credentials
 - Verify that your API keys have the necessary permissions for tool access
 
