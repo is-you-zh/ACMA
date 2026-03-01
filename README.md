@@ -13,10 +13,10 @@ Create a dedicated conda environment with Python 3.10:
 
 bash
 # Create and activate conda environment
-conda create -n toolcombine python=3.10 -y
-conda activate toolcombine
+conda create -n acma python=3.10 -y
+conda activate acma
 
-# Install dependencies
+## Install dependencies
 pip install -r requirements.txt
 2. Configuration
 Before running the toolkit, you need to configure your API credentials:
@@ -29,16 +29,16 @@ Ensure you have valid API access credentials
 Navigate to the StableToolBench directory and launch the main program:
 
 bash
-cd StableToolBench-master
+cd stabletoolbench
 python main.py
 4. Automation with Shell Script
 For convenience, you can use the provided shell script to automate the entire process:
 
 bash
-# Make the script executable (if needed)
+## Make the script executable (if needed)
 chmod +x run.sh
 
-# Execute the automation script
+## Execute the automation script
 ./run.sh
 The run.sh script handles:
 
@@ -59,13 +59,30 @@ Valid API credentials
 
 📁 Project Structure
 text
-StableToolBench-master/
-├── main.py              # Main entry point
-├── requirements.txt     # Python dependencies
-├── run.sh              # Automation script
-└── config/             # Configuration files
-    ├── api_config.yaml # API settings
-    └── ...
+ACMA/
+├── acma/                       # Core ACMA implementation
+│   ├── [core files and directories]
+│   ├── arguments.py
+│   ├── main.py
+│   ├── ...
+│   └── utils.py
+├── requirements.txt
+├── stabletoolbench/            # StableToolBench integration
+│   ├── config.yml
+│   ├── main.py
+│   └── ...
+├── tools/                       # API tool categories
+│   ├── Advertising/
+│   ├── Business/
+│   ├── Finance/
+│   ├── Health_and_Fitness/
+│   ├── Social/
+│   ├── ... 
+│   └── eCommerce/
+└── transformers/                # Pre-trained models
+    ├── 2025-07-24_02-49-05/
+    ├── all-mpnet-base-v2/
+    └── gpt2/
 🔧 Troubleshooting
 If you encounter any issues:
 
