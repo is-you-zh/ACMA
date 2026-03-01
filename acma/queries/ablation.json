@@ -1,0 +1,2509 @@
+[
+  {
+    "query": "Could you please help me find job listings in Finland that include the keyword 'python'? I'm particularly interested in recent opportunities.",
+    "query_id": "0001",
+    "apis": [
+      {
+        "category": "Jobs",
+        "tool": "Indeed Jobs API - Finland",
+        "api": "SearchJobs",
+        "api_description": "offset = 0 (starting of the page, it must be increased by 10 to achieve pagination)\nkeyword = python",
+        "parameters": {
+          "location": "Finland",
+          "keyword": "python",
+          "offset": 0
+        },
+        "api_status": "normal_response"
+      }
+    ]
+  },
+  {
+    "query": "I'm looking for Python-related job opportunities available in Finland. Can you provide me with a list of jobs that match this criterion?",
+    "query_id": "0002",
+    "apis": [
+      {
+        "category": "Jobs",
+        "tool": "Indeed Jobs API - Finland",
+        "api": "SearchJobs",
+        "api_description": "offset = 0 (starting of the page, it must be increased by 10 to achieve pagination)\nkeyword = python",
+        "parameters": {
+          "location": "Finland",
+          "keyword": "python",
+          "offset": 0
+        },
+        "api_status": "normal_response"
+      }
+    ]
+  },
+  {
+    "query": "Show me the current job openings in Finland where 'python' is mentioned. I'd like to see what positions are available right now.",
+    "query_id": "0003",
+    "apis": [
+      {
+        "category": "Jobs",
+        "tool": "Indeed Jobs API - Finland",
+        "api": "SearchJobs",
+        "api_description": "offset = 0 (starting of the page, it must be increased by 10 to achieve pagination)\nkeyword = python",
+        "parameters": {
+          "location": "Finland",
+          "keyword": "python",
+          "offset": 0
+        },
+        "api_status": "normal_response"
+      }
+    ]
+  },
+  {
+    "query": "Could you please provide me with a medium difficulty word for charades? I'm looking for something fun for our game night.",
+    "query_id": "0004",
+    "apis": [
+      {
+        "category": "Gaming",
+        "tool": "Pictionary Charades Word Generator",
+        "api": "Get Charades Word",
+        "api_description": "Get a random charades word with the specified difficulty. If not difficulty is supplied, a random di",
+        "parameters": {
+          "difficulty": "medium"
+        },
+        "api_status": "normal_response"
+      },
+      {
+        "category": "Gaming",
+        "tool": "Pictionary Charades Word Generator",
+        "api": "Get Pictionary Word",
+        "api_description": "Get a random pictionary word with the specified difficulty. If not difficulty is supplied, a random ",
+        "parameters": {
+          "difficulty": "medium"
+        },
+        "api_status": "normal_response"
+      }
+    ]
+  },
+  {
+    "query": "I need a random word for Pictionary with a medium difficulty level. Can you help me out with that?",
+    "query_id": "0005",
+    "apis": [
+      {
+        "category": "Gaming",
+        "tool": "Pictionary Charades Word Generator",
+        "api": "Get Charades Word",
+        "api_description": "Get a random charades word with the specified difficulty. If not difficulty is supplied, a random di",
+        "parameters": {
+          "difficulty": "medium"
+        },
+        "api_status": "normal_response"
+      },
+      {
+        "category": "Gaming",
+        "tool": "Pictionary Charades Word Generator",
+        "api": "Get Pictionary Word",
+        "api_description": "Get a random pictionary word with the specified difficulty. If not difficulty is supplied, a random ",
+        "parameters": {
+          "difficulty": "medium"
+        },
+        "api_status": "normal_response"
+      }
+    ]
+  },
+  {
+    "query": "Generate a medium difficulty charades word for me, as well as a Pictionary word. We’re running a game session soon!",
+    "query_id": "0006",
+    "apis": [
+      {
+        "category": "Gaming",
+        "tool": "Pictionary Charades Word Generator",
+        "api": "Get Charades Word",
+        "api_description": "Get a random charades word with the specified difficulty. If not difficulty is supplied, a random di",
+        "parameters": {
+          "difficulty": "medium"
+        },
+        "api_status": "normal_response"
+      },
+      {
+        "category": "Gaming",
+        "tool": "Pictionary Charades Word Generator",
+        "api": "Get Pictionary Word",
+        "api_description": "Get a random pictionary word with the specified difficulty. If not difficulty is supplied, a random ",
+        "parameters": {
+          "difficulty": "medium"
+        },
+        "api_status": "normal_response"
+      }
+    ]
+  },
+  {
+    "query": "Could you provide me with a list of physical constants, including their values and relevant equations? I'm specifically looking for information useful in my physics studies.",
+    "query_id": "0007",
+    "final_answer": "Here is a list of physical constants and some relevant equations useful in your physics studies:\n\nPhysical Constants:\n- Speed of light (c): 2.99792458 × 10^8 m/s\n- Gravitational constant (G): 6.67430 × 10^-11 m^3 kg^-1 s^-2\n- Planck constant (h): 6.62607015 × 10^-34 J·s\n- Elementary charge (e): 1.602176634 × 10^-19 C\n- Avogadro constant (N_A): 6.02214076 × 10^23 mol^-1\n- Gas constant (R): 8.314462618 J/(mol·K)\n- Boltzmann constant (k): 1.380649 × 10^-23 J/K\n- Permittivity of free space (ε₀): 8.854187817 × 10^-12 F/m\n- Permeability of free space (μ₀): 1.2566370614 × 10^-6 N/A²\n- Electron mass (m_e): 9.10938356 × 10^-31 kg\n\nRelevant Equations:\n- Newton's Second Law: F = m * a\n- Acceleration: a = (v - v₀) / t\n- Force from mass and acceleration: F = m * a\n- Universal gravitation: F = G * (m₁ * m₂) / r²\n- Energy of a photon: E = h * ν\n- Electric force: F = k * q₁ * q₂ / r²\n- Ideal gas law: PV = nRT\n- Kinetic energy: KE = 0.5 * m * v²\n\nThese constants and equations form the foundation for many areas in physics.",
+    "apis": [
+      {
+        "category": "Education",
+        "tool": "Physical quantities, constants and equations",
+        "api": "Get equations",
+        "api_description": "This endpoint return back data of equations formatted as JSON",
+        "parameters": {},
+        "api_status": "normal_response"
+      },
+      {
+        "category": "Education",
+        "tool": "Physical quantities, constants and equations",
+        "api": "Get All constants",
+        "api_description": "This endpoint return back data of physical constants formatted as JSON",
+        "parameters": {},
+        "api_status": "normal_response"
+      },
+      {
+        "category": "Education",
+        "tool": "Physical quantities, constants and equations",
+        "api": "Get All Physical quantities",
+        "api_description": "This endpoint return back data of physical quantities",
+        "parameters": {},
+        "api_status": "normal_response"
+      }
+    ]
+  },
+  {
+    "query": "I'm interested in exploring the various physical quantities and constants out there. Can you get me some detailed equations as well? This would really help with my homework.",
+    "query_id": "0008",
+    "final_answer": "Here's an overview that should help with your homework:\n\nPhysical Quantities:\n- Length (l): The one-dimensional extent of an object. [More info](https://en.wikipedia.org/wiki/Distance)\n- Mass (m): Resistance to acceleration of an object. [More](https://en.wikipedia.org/wiki/Mass)\n- Time (t): Duration of an event. [More](https://en.wikipedia.org/wiki/Time_in_physics)\n\nPhysical Constants:\n- Pi (π): 3.14159265359\n- Speed of light in vacuum (c₀): 2.99792458×10⁸ m/s\n- Newtonian constant of gravitation (Gₙ): 6.673×10⁻¹¹ m³/(kg·s²)\n- Planck constant (h): 6.626069×10⁻³⁴ J·s\n\nSample Equations:\n- Acceleration (a) in Mechanics: a = F/m (force divided by mass), a = v/t (change in velocity over time)\n- Uniformly Accelerated Motion: a = (v - v₀)/t, a = 2(s - s₀ - v₀t)/t²\n- Angular Acceleration: α = Δω/Δt\n\nLet me know if you need more details on any of these or specific equations/constants!",
+    "apis": [
+      {
+        "category": "Education",
+        "tool": "Physical quantities, constants and equations",
+        "api": "Get equations",
+        "api_description": "This endpoint return back data of equations formatted as JSON",
+        "parameters": {},
+        "api_status": "normal_response"
+      },
+      {
+        "category": "Education",
+        "tool": "Physical quantities, constants and equations",
+        "api": "Get All constants",
+        "api_description": "This endpoint return back data of physical constants formatted as JSON",
+        "parameters": {},
+        "api_status": "normal_response"
+      },
+      {
+        "category": "Education",
+        "tool": "Physical quantities, constants and equations",
+        "api": "Get All Physical quantities",
+        "api_description": "This endpoint return back data of physical quantities",
+        "parameters": {},
+        "api_status": "normal_response"
+      }
+    ]
+  },
+  {
+    "query": "Please fetch the details on physical constants and their equations for me. It would be great to have a clear understanding of these concepts for better preparation in my upcoming exams.",
+    "query_id": "0009",
+    "apis": [
+      {
+        "category": "Education",
+        "tool": "Physical quantities, constants and equations",
+        "api": "Get equations",
+        "api_description": "This endpoint return back data of equations formatted as JSON",
+        "parameters": {},
+        "api_status": "normal_response"
+      },
+      {
+        "category": "Education",
+        "tool": "Physical quantities, constants and equations",
+        "api": "Get All constants",
+        "api_description": "This endpoint return back data of physical constants formatted as JSON",
+        "parameters": {},
+        "api_status": "normal_response"
+      },
+      {
+        "category": "Education",
+        "tool": "Physical quantities, constants and equations",
+        "api": "Get All Physical quantities",
+        "api_description": "This endpoint return back data of physical quantities",
+        "parameters": {},
+        "api_status": "normal_response"
+      }
+    ]
+  },
+  {
+    "query": "Can you help me find what movies are currently available in the inventory? I’d love to see all the options I have.",
+    "query_id": "0010",
+    "apis": [
+      {
+        "category": "Movies",
+        "tool": "Films",
+        "api": "searchInventory",
+        "api_description": "By passing in the appropriate options, you can search for\navailable inventory in the system\n",
+        "parameters": {},
+        "api_status": "normal_response"
+      }
+    ]
+  },
+  {
+    "query": "I'm curious about which films are in stock right now. Could you provide a list of available titles in the collection?",
+    "query_id": "0011",
+    "apis": [
+      {
+        "category": "Movies",
+        "tool": "Films",
+        "api": "searchInventory",
+        "api_description": "By passing in the appropriate options, you can search for\navailable inventory in the system\n",
+        "parameters": {},
+        "api_status": "normal_response"
+      }
+    ]
+  },
+  {
+    "query": "Please show me the available movie inventory. I'm looking for something to watch this weekend and would appreciate the options.",
+    "query_id": "0012",
+    "apis": [
+      {
+        "category": "Movies",
+        "tool": "Films",
+        "api": "searchInventory",
+        "api_description": "By passing in the appropriate options, you can search for\navailable inventory in the system\n",
+        "parameters": {},
+        "api_status": "normal_response"
+      }
+    ]
+  },
+  {
+    "query": "Could you please provide me with today's word of the day along with its meanings? I'm eager to expand my vocabulary and enhance my communication skills.",
+    "query_id": "0013",
+    "apis": [
+      {
+        "category": "Education",
+        "tool": "Word of the day",
+        "api": "Get word of the day from multiple sources",
+        "api_description": "Gets word of the day from mutiple sources in one go easy.",
+        "parameters": {},
+        "api_status": "normal_response"
+      },
+      {
+        "category": "Education",
+        "tool": "Word of the day",
+        "api": "Recent word of the day from DC",
+        "api_description": "Fetches upto 3 recent word from Dictionary.com",
+        "parameters": {},
+        "api_status": "normal_response"
+      }
+    ]
+  },
+  {
+    "query": "Hey! What's the word of the day? I want to make sure I'm always learning something new to improve my conversation skills.",
+    "query_id": "0014",
+    "apis": [
+      {
+        "category": "Education",
+        "tool": "Word of the day",
+        "api": "Get word of the day from multiple sources",
+        "api_description": "Gets word of the day from mutiple sources in one go easy.",
+        "parameters": {},
+        "api_status": "normal_response"
+      },
+      {
+        "category": "Education",
+        "tool": "Word of the day",
+        "api": "Recent word of the day from DC",
+        "api_description": "Fetches upto 3 recent word from Dictionary.com",
+        "parameters": {},
+        "api_status": "normal_response"
+      }
+    ]
+  },
+  {
+    "query": "I’m interested in the word of the day from various sources. Additionally, could you share some recent words from Dictionary.com? I'm looking to enrich my vocabulary further.",
+    "query_id": "0015",
+    "apis": [
+      {
+        "category": "Education",
+        "tool": "Word of the day",
+        "api": "Get word of the day from multiple sources",
+        "api_description": "Gets word of the day from mutiple sources in one go easy.",
+        "parameters": {},
+        "api_status": "normal_response"
+      },
+      {
+        "category": "Education",
+        "tool": "Word of the day",
+        "api": "Recent word of the day from DC",
+        "api_description": "Fetches upto 3 recent word from Dictionary.com",
+        "parameters": {},
+        "api_status": "normal_response"
+      }
+    ]
+  },
+  {
+    "query": "Could you provide the definition of the word 'example' using the dictionary tool? I want to understand its meaning and usage in context.",
+    "query_id": "0016",
+    "apis": [
+      {
+        "category": "Translation",
+        "tool": "Dictionary by API-Ninjas",
+        "api": "/v1/dictionary",
+        "api_description": "API Ninjas Dictionary API endpoint.",
+        "parameters": {
+          "word": "example"
+        },
+        "api_status": "normal_response"
+      }
+    ]
+  },
+  {
+    "query": "I'm curious about the word 'example.' Can you look it up in the dictionary and tell me its definition? I'd appreciate any additional details.",
+    "query_id": "0017",
+    "apis": [
+      {
+        "category": "Translation",
+        "tool": "Dictionary by API-Ninjas",
+        "api": "/v1/dictionary",
+        "api_description": "API Ninjas Dictionary API endpoint.",
+        "parameters": {
+          "word": "example"
+        },
+        "api_status": "normal_response"
+      }
+    ]
+  },
+  {
+    "query": "Please fetch the meaning of 'example' from the dictionary for me. I'm looking to get a clear understanding of this term for my writing.",
+    "query_id": "0018",
+    "apis": [
+      {
+        "category": "Translation",
+        "tool": "Dictionary by API-Ninjas",
+        "api": "/v1/dictionary",
+        "api_description": "API Ninjas Dictionary API endpoint.",
+        "parameters": {
+          "word": "example"
+        },
+        "api_status": "normal_response"
+      }
+    ]
+  },
+  {
+    "query": "Could you provide me with the recent current affairs regarding India, and also send over today's quiz questions related to these events? I'm keen on testing my knowledge!",
+    "query_id": "0019",
+    "apis": [
+      {
+        "category": "Education",
+        "tool": "Current Affairs Of India",
+        "api": "Recent Current Affairs",
+        "api_description": "This will provide you with the recent current affairs of India.",
+        "parameters": {},
+        "api_status": "normal_response"
+      },
+      {
+        "category": "Education",
+        "tool": "Current Affairs Of India",
+        "api": "Quiz For Today",
+        "api_description": "This endpoint will fetch you today's current affair 10 quiz questions.",
+        "parameters": {},
+        "api_status": "normal_response"
+      }
+    ]
+  },
+  {
+    "query": "I want to stay updated! Share the latest current affairs of India along with today’s quiz challenges. It's important for my learning.",
+    "query_id": "0020",
+    "apis": [
+      {
+        "category": "Education",
+        "tool": "Current Affairs Of India",
+        "api": "Recent Current Affairs",
+        "api_description": "This will provide you with the recent current affairs of India.",
+        "parameters": {},
+        "api_status": "normal_response"
+      },
+      {
+        "category": "Education",
+        "tool": "Current Affairs Of India",
+        "api": "Quiz For Today",
+        "api_description": "This endpoint will fetch you today's current affair 10 quiz questions.",
+        "parameters": {},
+        "api_status": "normal_response"
+      }
+    ]
+  },
+  {
+    "query": "Please give me the newest current affairs from India and include the quiz questions for today too. I’m eager to engage with the material.",
+    "query_id": "0021",
+    "apis": [
+      {
+        "category": "Education",
+        "tool": "Current Affairs Of India",
+        "api": "Recent Current Affairs",
+        "api_description": "This will provide you with the recent current affairs of India.",
+        "parameters": {},
+        "api_status": "normal_response"
+      },
+      {
+        "category": "Education",
+        "tool": "Current Affairs Of India",
+        "api": "Quiz For Today",
+        "api_description": "This endpoint will fetch you today's current affair 10 quiz questions.",
+        "parameters": {},
+        "api_status": "normal_response"
+      }
+    ]
+  },
+  {
+    "query": "Could you provide me with the latest research articles on climate change? I’d like to understand the current trends in this field.",
+    "query_id": "0022",
+    "final_answer": "Here are the latest research articles and trends in climate change based on recent searches:\n\n1. Latest Research on Climate Change – Recent studies highlight the impacts and solutions for climate change: [link](https://www.example.com/research/climate-change)\n\n2. Climate Change: A Comprehensive Review – In-depth analysis of the latest publications: [link](https://www.example.com/research/comprehensive-review)\n\n3. Innovative Solutions to Combat Climate Change – New technologies and approaches: [link](https://www.example.com/research/solutions)\n\n4. Climate Change and Its Effects on Biodiversity – Research into ecosystem impacts: [link](https://www.example.com/research/biodiversity)\n\n5. The Role of Policy in Climate Change Mitigation – Evaluation of governmental actions: [link](https://www.example.com/research/policy)\n\n6. Climate Change Adaptation Strategies – Strategies for adapting to climate impacts: [link](https://www.example.com/research/adaptation)\n\n7. Climate Change and Health – Health impacts of climate change globally: [link](https://www.example.com/research/health)\n\nRecent trends emphasize the urgency of reducing carbon emissions, advancing renewable energy, and implementing adaptation strategies for vulnerable communities. International agreements and policy responses play a vital role in mitigation efforts. For further in-depth scholarly articles, you can explore databases like Google Scholar, PubMed, or academic journals such as Nature Climate Change and Environmental Research Letters.",
+    "apis": [
+      {
+        "category": "Science",
+        "tool": "crossref",
+        "api": "Search",
+        "api_description": "Let’s look at some of the results",
+        "parameters": {
+          "query": "climate change"
+        },
+        "api_status": "normal_response"
+      },
+      {
+        "category": "Science",
+        "tool": "crossref",
+        "api": "RecordCount",
+        "api_description": "How many records do we have?",
+        "parameters": {
+          "rows": 10
+        },
+        "api_status": "normal_response"
+      }
+    ]
+  },
+  {
+    "query": "I'm interested in climate change research. Please give me a count of the most recent articles published so I can review them.",
+    "query_id": "0023",
+    "final_answer": "The news article aggregation tool can provide daily counts of the most recent articles related to climate change research. These counts reflect the trends and news coverage, including topics like temperature changes, policy updates, and environmental impacts. By reviewing these daily aggregation results, you will see a clear overview of climate change research articles published recently. If you need a specific date range or more detailed trends, please let me know.",
+    "apis": [
+      {
+        "category": "Science",
+        "tool": "crossref",
+        "api": "Search",
+        "api_description": "Let’s look at some of the results",
+        "parameters": {
+          "query": "climate change"
+        },
+        "api_status": "normal_response"
+      },
+      {
+        "category": "Science",
+        "tool": "crossref",
+        "api": "RecordCount",
+        "api_description": "How many records do we have?",
+        "parameters": {
+          "rows": 10
+        },
+        "api_status": "normal_response"
+      }
+    ]
+  },
+  {
+    "query": "Show me some articles related to climate change research. Also, how many entries are available for this topic in your database?",
+    "query_id": "0024",
+    "final_answer": "For articles related to climate change research, you can explore the dedicated section on the Nature website at https://www.nature.com/subjects/climate-change, which features many studies, reviews, and news updates on this topic. In my database search, there are approximately 10,000 entries available—this reflects a broad and rich collection, though not all may be directly tied to climate change. If you need more specific results or a filtered list, please let me know!",
+    "apis": [
+      {
+        "category": "Science",
+        "tool": "crossref",
+        "api": "Search",
+        "api_description": "Let’s look at some of the results",
+        "parameters": {
+          "query": "climate change"
+        },
+        "api_status": "normal_response"
+      },
+      {
+        "category": "Science",
+        "tool": "crossref",
+        "api": "RecordCount",
+        "api_description": "How many records do we have?",
+        "parameters": {
+          "rows": 10
+        },
+        "api_status": "normal_response"
+      }
+    ]
+  },
+  {
+    "query": "Could you please extract all the unique email addresses from this URL? I need them for my research project.",
+    "query_id": "0025",
+    "apis": [
+      {
+        "category": "Email",
+        "tool": "Get emails from url",
+        "api": "Get emails",
+        "api_description": "Get emails by URL.",
+        "parameters": {
+          "url": "string"
+        },
+        "api_status": "normal_response"
+      }
+    ]
+  },
+  {
+    "query": "I'm looking to gather email addresses from a specific website. Can you help me get all the distinct emails found on that URL?",
+    "query_id": "0026",
+    "apis": [
+      {
+        "category": "Email",
+        "tool": "Get emails from url",
+        "api": "Get emails",
+        "api_description": "Get emails by URL.",
+        "parameters": {
+          "url": "string"
+        },
+        "api_status": "normal_response"
+      }
+    ]
+  },
+  {
+    "query": "Please retrieve all unique email addresses listed on this URL. I need them for contacting potential collaborators.",
+    "query_id": "0027",
+    "final_answer": "Please provide the URL you want me to retrieve email addresses from, and I will process your request.",
+    "apis": [
+      {
+        "category": "Email",
+        "tool": "Get emails from url",
+        "api": "Get emails",
+        "api_description": "Get emails by URL.",
+        "parameters": {
+          "url": "string"
+        },
+        "api_status": "normal_response"
+      }
+    ]
+  },
+  {
+    "query": "Could you provide me with a list of languages supported by the Google Translate API? I'm really interested in knowing my options before I proceed with translations.",
+    "query_id": "0028",
+    "apis": [
+      {
+        "category": "Translation",
+        "tool": "Google Translate_v3",
+        "api": "Supported languages",
+        "api_description": "Get Support Languages",
+        "parameters": {},
+        "api_status": "normal_response"
+      }
+    ]
+  },
+  {
+    "query": "Hey, can you tell me which languages I can translate using Google Translate? I want to make sure my desired languages are included.",
+    "query_id": "0029",
+    "apis": [
+      {
+        "category": "Translation",
+        "tool": "Google Translate_v3",
+        "api": "Supported languages",
+        "api_description": "Get Support Languages",
+        "parameters": {},
+        "api_status": "normal_response"
+      }
+    ]
+  },
+  {
+    "query": "I'm looking to find out which languages are supported by the Google Translate service. Could you help me with that information, please?",
+    "query_id": "0030",
+    "apis": [
+      {
+        "category": "Translation",
+        "tool": "Google Translate_v3",
+        "api": "Supported languages",
+        "api_description": "Get Support Languages",
+        "parameters": {},
+        "api_status": "normal_response"
+      }
+    ]
+  },
+  {
+    "query": "Could you provide me with the complete list of users available in our database? I'm looking to review all entries for an upcoming meeting.",
+    "query_id": "0031",
+    "apis": [
+      {
+        "category": "Business",
+        "tool": "Users",
+        "api": "User Listing",
+        "api_description": "User Listing",
+        "parameters": {},
+        "api_status": "normal_response"
+      }
+    ]
+  },
+  {
+    "query": "Hey, can you pull up the user listing from our system? I need to check some details for our project report.",
+    "query_id": "0032",
+    "apis": [
+      {
+        "category": "Business",
+        "tool": "Users",
+        "api": "User Listing",
+        "api_description": "User Listing",
+        "parameters": {},
+        "api_status": "normal_response"
+      }
+    ]
+  },
+  {
+    "query": "Please fetch the user list for me. I want to ensure we have all our contacts updated before the next team call.",
+    "query_id": "0033",
+    "apis": [
+      {
+        "category": "Business",
+        "tool": "Users",
+        "api": "User Listing",
+        "api_description": "User Listing",
+        "parameters": {},
+        "api_status": "normal_response"
+      }
+    ]
+  },
+  {
+    "query": "Can you provide me with the positions of Mars as observed from Los Angeles throughout this year? I'd like the detailed data for the dates ranging from January 1st to December 31st, if possible.",
+    "query_id": "0034",
+    "apis": [
+      {
+        "category": "Science",
+        "tool": "Astronomy",
+        "api": "Get positions for body",
+        "api_description": "Returns properties of the given body for the given date range in tabular format.\n\nSupported bodies a",
+        "parameters": {
+          "to_date": "2023-12-31",
+          "body": "Mars",
+          "latitude": "34.05",
+          "from_date": "2023-01-01",
+          "longitude": "-118.25"
+        },
+        "api_status": "normal_response"
+      },
+      {
+        "category": "Science",
+        "tool": "Astronomy",
+        "api": "Get all bodies positions",
+        "api_description": "Returns a iterable list of bodies and their properties in tabular format.",
+        "parameters": {
+          "latitude": "34.05",
+          "longitude": "-118.25",
+          "from_date": "2023-01-01",
+          "to_date": "2023-12-31"
+        },
+        "api_status": "normal_response"
+      }
+    ]
+  },
+  {
+    "query": "Can you provide the latest atmospheric carbon dioxide concentration, nitrous oxide levels, and methane concentration data for this year? I'm really interested in understanding the current greenhouse gas levels.",
+    "query_id": "1001",
+    "final_answer": "The latest data I could retrieve shows the following atmospheric greenhouse gas levels from available sources:\n\n- Carbon dioxide (CO2): The most recent data is from early 2015, with daily concentrations around 400.30 ppm (parts per million).\n- Nitrous oxide (N2O): The most recent data is from 2002-2003, with concentrations near 317 ppb (parts per billion).\n- Methane (CH4): The most recent data is from the 1980s, with concentrations around 1625-1650 ppb.\n\nUnfortunately, I do not have access to greenhouse gas concentration data for this year using the current data sources.",
+    "apis": [
+      {
+        "category": "Science",
+        "tool": "Daily atmosphere carbon dioxide concentration",
+        "api": "Carbon dioxide endpoint",
+        "api_description": "The response will be an object with no CORS resources enabled.",
+        "parameters": {},
+        "api_status": "normal_response"
+      },
+      {
+        "category": "Science",
+        "tool": "Atmosphere nitrous oxide levels",
+        "api": "Nitrous endpoint",
+        "api_description": "The response will be an object with no CORS resources enabled.",
+        "parameters": {},
+        "api_status": "normal_response"
+      },
+      {
+        "category": "Science",
+        "tool": "Atmosphere methane concentration",
+        "api": "Methane endpoint",
+        "api_description": "The response will be an object with no CORS resources enabled.",
+        "parameters": {},
+        "api_status": "normal_response"
+      }
+    ]
+  },
+  {
+    "query": "I'm researching greenhouse gas emissions. Could you get me the atmospheric CO2, nitrous oxide, and methane levels for the current year? I want to compare these statistics for my analysis.",
+    "query_id": "1002",
+    "final_answer": "The most recent atmospheric greenhouse gas levels I can access are as follows:\n\n- Carbon Dioxide (CO2): Latest available data is from 2015. For example, on January 25, 2015, the daily average (cycle) was 400.30 ppm, with a trend value of 398.68 ppm.\n- Nitrous Oxide (N2O): Latest available record starts from 2002. For example, in mid-2002 the average concentration was around 316.85 ppb.\n- Methane (CH4): Data starts from the 1980s. As an example, in July 1983 the average was about 1625.91 ppb.\n\nUnfortunately, direct and current year values are not available from these data sources, but I can provide more detailed historic data if you wish. Let me know if you want a specific year or a trend analysis over time.",
+    "apis": [
+      {
+        "category": "Science",
+        "tool": "Daily atmosphere carbon dioxide concentration",
+        "api": "Carbon dioxide endpoint",
+        "api_description": "The response will be an object with no CORS resources enabled.",
+        "parameters": {},
+        "api_status": "normal_response"
+      },
+      {
+        "category": "Science",
+        "tool": "Atmosphere nitrous oxide levels",
+        "api": "Nitrous endpoint",
+        "api_description": "The response will be an object with no CORS resources enabled.",
+        "parameters": {},
+        "api_status": "normal_response"
+      },
+      {
+        "category": "Science",
+        "tool": "Atmosphere methane concentration",
+        "api": "Methane endpoint",
+        "api_description": "The response will be an object with no CORS resources enabled.",
+        "parameters": {},
+        "api_status": "normal_response"
+      }
+    ]
+  },
+  {
+    "query": "Please fetch the most recent data on carbon dioxide, nitrous oxide, and methane concentrations in the atmosphere for 2023. I'm looking to compile an environmental report, and this info is crucial.",
+    "query_id": "1003",
+    "final_answer": "The most recent atmospheric concentration data available from the current sources does not include values for 2023:\n\n- Carbon dioxide (CO2): Latest records are from 2015, with daily values around 400 ppm at that time.\n- Methane (CH4): Records extend only through the mid-1980s, with values around 1650 ppb in 1984.\n- Nitrous oxide (N2O): Data is available up to the early 2000s, with values near 318 ppb in 2003.\n\nFor your environmental report, you may need to consult other sources or databases for up-to-date atmospheric concentrations for 2023, as recent data is not available from these endpoints.",
+    "apis": [
+      {
+        "category": "Science",
+        "tool": "Daily atmosphere carbon dioxide concentration",
+        "api": "Carbon dioxide endpoint",
+        "api_description": "The response will be an object with no CORS resources enabled.",
+        "parameters": {},
+        "api_status": "normal_response"
+      },
+      {
+        "category": "Science",
+        "tool": "Atmosphere nitrous oxide levels",
+        "api": "Nitrous endpoint",
+        "api_description": "The response will be an object with no CORS resources enabled.",
+        "parameters": {},
+        "api_status": "normal_response"
+      },
+      {
+        "category": "Science",
+        "tool": "Atmosphere methane concentration",
+        "api": "Methane endpoint",
+        "api_description": "The response will be an object with no CORS resources enabled.",
+        "parameters": {},
+        "api_status": "normal_response"
+      }
+    ]
+  },
+  {
+    "query": "I'm planning a dinner party and I want to impress my guests with a delicious appetizer that includes avocado. Can you help me find a recipe for that?",
+    "query_id": "1004",
+    "final_answer": "Here's a delicious appetizer recipe featuring avocado to impress your dinner party guests: Stuffed Avocado Bites Ingredients: - 4 ripe avocados, halved and pitted - 1/2 cup prepared salsa - 1/4 cup shredded cheddar cheese - 1 tablespoon chopped fresh cilantro Instructions: 1. Preheat oven to 375°F. 2. In a medium bowl, combine salsa, cheese, and cilantro. 3. Spoon the mixture into the avocado halves. 4. Place on a baking sheet and bake for 15 minutes. 5. Serve warm. This appetizer is flavorful and sure to be a hit at your dinner party!",
+    "apis": [
+      {
+        "category": "Food",
+        "tool": "Recipe Finder",
+        "api": "appetizer/ingredient",
+        "api_description": "This API endpoint allows users to retrieve a random appetizer  recipe that contains a specific ingre",
+        "parameters": {
+          "ingredient": "avocado"
+        },
+        "api_status": "normal_response"
+      }
+    ]
+  },
+  {
+    "query": "Could you suggest an appetizer recipe using avocado for my upcoming gathering? I’d love something that's sure to wow my guests!",
+    "query_id": "1005",
+    "apis": [
+      {
+        "category": "Food",
+        "tool": "Recipe Finder",
+        "api": "appetizer/ingredient",
+        "api_description": "This API endpoint allows users to retrieve a random appetizer  recipe that contains a specific ingre",
+        "parameters": {
+          "ingredient": "avocado"
+        },
+        "api_status": "normal_response"
+      }
+    ]
+  },
+  {
+    "query": "Find me a tasty appetizer recipe featuring avocado, as I'm hosting a dinner and need something that stands out.",
+    "query_id": "1006",
+    "final_answer": "Here's a tasty and standout appetizer recipe featuring avocado:\n\nName: Stuffed Avocado Bites\n\nIngredients:\n- 4 ripe avocados, halved and pitted\n- 1/2 cup prepared salsa\n- 1/4 cup shredded cheddar cheese\n- 1 tablespoon chopped fresh cilantro\n\nInstructions:\n1. Preheat oven to 375 degrees F.\n2. In a medium bowl, combine salsa, cheese, and cilantro.\n3. Spoon the mixture into the avocado halves.\n4. Place on a baking sheet and bake for 15 minutes.\n5. Serve warm.\n\nThese Stuffed Avocado Bites will impress your guests and add a delicious twist to your dinner party! Enjoy!",
+    "apis": [
+      {
+        "category": "Food",
+        "tool": "Recipe Finder",
+        "api": "appetizer/ingredient",
+        "api_description": "This API endpoint allows users to retrieve a random appetizer  recipe that contains a specific ingre",
+        "parameters": {
+          "ingredient": "avocado"
+        },
+        "api_status": "normal_response"
+      }
+    ]
+  },
+  {
+    "query": "I'm going to cook dinner tonight and I have some chicken. Can you help me find a few tasty chicken recipes and give me the nutrition breakdown for one of them?",
+    "query_id": "1007",
+    "final_answer": "Here’s a tasty chicken recipe idea you can easily try for dinner:\n\nChicken Stir-Fry Recipe\nIngredients:\n- 1 chicken breast\n- 1 tablespoon olive oil\n- 1 cup broccoli\n- 1/2 red bell pepper\n- 1 tablespoon soy sauce\n\nInstructions:\n1. Cut the chicken breast into bite-sized pieces.\n2. Heat olive oil in a pan over medium-high heat.\n3. Add chicken and cook until no longer pink.\n4. Add the chopped broccoli and bell pepper, stir-frying until veggies are just tender.\n5. Stir in the soy sauce, cook for a minute more, then serve with rice or noodles if you like.\n\nApproximate Nutrition Breakdown for One Serving:\n- Calories: 8 kcal\n- Protein: 1.3 g\n- Fat: 0.09 g\n- Saturated Fat: 0.01 g\n- Carbohydrates: 0.79 g\n- Fiber: 0.13 g\n- Sugars: 0.06 g\n- Cholesterol: 0 mg\n\nThis meal is high in protein, low in fat, and packed with veggies. You can adjust quantities and add other vegetables as you like!\n\nIf you’d like more chicken recipe ideas, let me know!",
+    "apis": [
+      {
+        "category": "Food",
+        "tool": "Recipe Finder",
+        "api": "dinner/ingredient",
+        "api_description": "This API endpoint allows users to retrieve a random dinner  recipe that contains a specific ingredie",
+        "parameters": {
+          "ingredient": "chicken"
+        },
+        "api_status": "normal_response"
+      },
+      {
+        "category": "Food",
+        "tool": "Nutrition by API-Ninjas",
+        "api": "/v1/nutrition",
+        "api_description": "API Ninjas Nutrition API endpoint.",
+        "parameters": {
+          "query": "chicken"
+        },
+        "api_status": "normal_response"
+      }
+    ]
+  },
+  {
+    "query": "What are some recipes I can make with chicken? I'd like to see a couple along with nutrition information for one of those options.",
+    "query_id": "1008",
+    "apis": [
+      {
+        "category": "Food",
+        "tool": "Recipe Finder",
+        "api": "dinner/ingredient",
+        "api_description": "This API endpoint allows users to retrieve a random dinner  recipe that contains a specific ingredie",
+        "parameters": {
+          "ingredient": "chicken"
+        },
+        "api_status": "normal_response"
+      },
+      {
+        "category": "Food",
+        "tool": "Nutrition by API-Ninjas",
+        "api": "/v1/nutrition",
+        "api_description": "API Ninjas Nutrition API endpoint.",
+        "parameters": {
+          "query": "chicken"
+        },
+        "api_status": "normal_response"
+      }
+    ]
+  },
+  {
+    "query": "Find me some delicious chicken recipes and provide nutritional details for one of them as well. I’m looking to try something new tonight.",
+    "query_id": "1009",
+    "final_answer": "Here’s a delicious chicken dinner recipe for you to try tonight: Chicken Teriyaki.\n\nRecipe: Chicken Teriyaki\nIngredients:\n- 1 lb chicken breast, cut into small strips\n- 2 tbsp soy sauce\n- 1 tbsp honey\n- 1 tbsp vegetable oil\n- 1 garlic clove, minced\n- 1/2 tsp ground ginger\n- 3 green onions, thinly sliced\n\nInstructions:\n1. In a large resealable bag, combine chicken strips, soy sauce, honey, vegetable oil, garlic, and ginger. Seal bag and marinate in the refrigerator for at least 2 hours.\n2. Preheat grill to medium-high heat.\n3. Grill chicken strips for 5-7 minutes per side, or until cooked through.\n4. Garnish with green onion slices and serve with steamed rice.\n\nNutritional Details per 100g (approximate):\n- Total Fat: 5.5g\n- Saturated Fat: 1.5g\n- Sodium: 737mg\n- Potassium: 182mg\n- Cholesterol: 61mg\n- Total Carbohydrates: 2.8g\n- Dietary Fiber: 0g\n- Sugars: 2.5g\n\nNote: Specific calorie and protein values were not available. If you need another chicken recipe or more nutrition details for a different dish, let me know!",
+    "apis": [
+      {
+        "category": "Food",
+        "tool": "Recipe Finder",
+        "api": "dinner/ingredient",
+        "api_description": "This API endpoint allows users to retrieve a random dinner  recipe that contains a specific ingredie",
+        "parameters": {
+          "ingredient": "chicken"
+        },
+        "api_status": "normal_response"
+      },
+      {
+        "category": "Food",
+        "tool": "Nutrition by API-Ninjas",
+        "api": "/v1/nutrition",
+        "api_description": "API Ninjas Nutrition API endpoint.",
+        "parameters": {
+          "query": "chicken"
+        },
+        "api_status": "normal_response"
+      }
+    ]
+  },
+  {
+    "query": "I'd like to understand the current levels of greenhouse gases in the atmosphere. Can you provide the latest carbon dioxide, nitrous oxide, and methane concentrations?",
+    "query_id": "1010",
+    "apis": [
+      {
+        "category": "Science",
+        "tool": "Daily atmosphere carbon dioxide concentration",
+        "api": "Carbon dioxide endpoint",
+        "api_description": "The response will be an object with no CORS resources enabled.",
+        "parameters": {},
+        "api_status": "normal_response"
+      },
+      {
+        "category": "Science",
+        "tool": "Atmosphere nitrous oxide levels",
+        "api": "Nitrous endpoint",
+        "api_description": "The response will be an object with no CORS resources enabled.",
+        "parameters": {},
+        "api_status": "normal_response"
+      },
+      {
+        "category": "Science",
+        "tool": "Atmosphere methane concentration",
+        "api": "Methane endpoint",
+        "api_description": "The response will be an object with no CORS resources enabled.",
+        "parameters": {},
+        "api_status": "normal_response"
+      }
+    ]
+  },
+  {
+    "query": "What are the latest measurements for carbon dioxide, nitrous oxide, and methane in the atmosphere? I'm particularly interested in their atmospheric concentrations.",
+    "query_id": "1011",
+    "apis": [
+      {
+        "category": "Science",
+        "tool": "Daily atmosphere carbon dioxide concentration",
+        "api": "Carbon dioxide endpoint",
+        "api_description": "The response will be an object with no CORS resources enabled.",
+        "parameters": {},
+        "api_status": "normal_response"
+      },
+      {
+        "category": "Science",
+        "tool": "Atmosphere nitrous oxide levels",
+        "api": "Nitrous endpoint",
+        "api_description": "The response will be an object with no CORS resources enabled.",
+        "parameters": {},
+        "api_status": "normal_response"
+      },
+      {
+        "category": "Science",
+        "tool": "Atmosphere methane concentration",
+        "api": "Methane endpoint",
+        "api_description": "The response will be an object with no CORS resources enabled.",
+        "parameters": {},
+        "api_status": "normal_response"
+      }
+    ]
+  },
+  {
+    "query": "Please fetch the current concentrations of carbon dioxide, nitrous oxide, and methane from the atmosphere. I'm curious about their levels for an environmental report I’m preparing.",
+    "query_id": "1012",
+    "apis": [
+      {
+        "category": "Science",
+        "tool": "Daily atmosphere carbon dioxide concentration",
+        "api": "Carbon dioxide endpoint",
+        "api_description": "The response will be an object with no CORS resources enabled.",
+        "parameters": {},
+        "api_status": "normal_response"
+      },
+      {
+        "category": "Science",
+        "tool": "Atmosphere nitrous oxide levels",
+        "api": "Nitrous endpoint",
+        "api_description": "The response will be an object with no CORS resources enabled.",
+        "parameters": {},
+        "api_status": "normal_response"
+      },
+      {
+        "category": "Science",
+        "tool": "Atmosphere methane concentration",
+        "api": "Methane endpoint",
+        "api_description": "The response will be an object with no CORS resources enabled.",
+        "parameters": {},
+        "api_status": "normal_response"
+      }
+    ]
+  },
+  {
+    "query": "I'm analyzing my investment portfolio and need a comprehensive overview. Please provide key statistics, earnings estimates, and the latest gold price to make informed decisions.",
+    "query_id": "1013",
+    "apis": [
+      {
+        "category": "Finance",
+        "tool": "Stock Analysis",
+        "api": "Key Statistics",
+        "api_description": "Get key statistics.",
+        "parameters": {
+          "ticker": "AAPL"
+        },
+        "api_status": "normal_response"
+      },
+      {
+        "category": "Finance",
+        "tool": "Stock Analysis",
+        "api": "Earnings Estimate",
+        "api_description": "Get earnings estimate.",
+        "parameters": {
+          "ticker": "AAPL"
+        },
+        "api_status": "normal_response"
+      },
+      {
+        "category": "Finance",
+        "tool": "Gold Price - Live_v2",
+        "api": "Get Metal Prices",
+        "api_description": "Get the current latest metals price.\nIncluding gold and silver.",
+        "parameters": {},
+        "api_status": "normal_response"
+      }
+    ]
+  },
+  {
+    "query": "Could you help me gather some crucial financial data for my investments? I'm looking for the key statistics and earnings estimates for a specific stock, as well as the current price of gold.",
+    "query_id": "1014",
+    "apis": [
+      {
+        "category": "Finance",
+        "tool": "Stock Analysis",
+        "api": "Key Statistics",
+        "api_description": "Get key statistics.",
+        "parameters": {
+          "ticker": "AAPL"
+        },
+        "api_status": "normal_response"
+      },
+      {
+        "category": "Finance",
+        "tool": "Stock Analysis",
+        "api": "Earnings Estimate",
+        "api_description": "Get earnings estimate.",
+        "parameters": {
+          "ticker": "AAPL"
+        },
+        "api_status": "normal_response"
+      },
+      {
+        "category": "Finance",
+        "tool": "Gold Price - Live_v2",
+        "api": "Get Metal Prices",
+        "api_description": "Get the current latest metals price.\nIncluding gold and silver.",
+        "parameters": {},
+        "api_status": "normal_response"
+      }
+    ]
+  },
+  {
+    "query": "Fetch the key financial statistics and earnings estimates for a stock I'm considering, and also get me the latest price of gold so I can evaluate my options.",
+    "query_id": "1015",
+    "apis": [
+      {
+        "category": "Finance",
+        "tool": "Stock Analysis",
+        "api": "Key Statistics",
+        "api_description": "Get key statistics.",
+        "parameters": {
+          "ticker": "AAPL"
+        },
+        "api_status": "normal_response"
+      },
+      {
+        "category": "Finance",
+        "tool": "Stock Analysis",
+        "api": "Earnings Estimate",
+        "api_description": "Get earnings estimate.",
+        "parameters": {
+          "ticker": "AAPL"
+        },
+        "api_status": "normal_response"
+      },
+      {
+        "category": "Finance",
+        "tool": "Gold Price - Live_v2",
+        "api": "Get Metal Prices",
+        "api_description": "Get the current latest metals price.\nIncluding gold and silver.",
+        "parameters": {},
+        "api_status": "normal_response"
+      }
+    ]
+  },
+  {
+    "query": "I'm researching environmental impacts. Could you provide the latest carbon dioxide, methane, and nitrous oxide levels in the atmosphere?",
+    "query_id": "1016",
+    "apis": [
+      {
+        "category": "Science",
+        "tool": "Daily atmosphere carbon dioxide concentration",
+        "api": "Carbon dioxide endpoint",
+        "api_description": "The response will be an object with no CORS resources enabled.",
+        "parameters": {},
+        "api_status": "normal_response"
+      },
+      {
+        "category": "Science",
+        "tool": "Atmosphere methane concentration",
+        "api": "Methane endpoint",
+        "api_description": "The response will be an object with no CORS resources enabled.",
+        "parameters": {},
+        "api_status": "normal_response"
+      },
+      {
+        "category": "Science",
+        "tool": "Atmosphere nitrous oxide levels",
+        "api": "Nitrous endpoint",
+        "api_description": "The response will be an object with no CORS resources enabled.",
+        "parameters": {},
+        "api_status": "normal_response"
+      }
+    ]
+  },
+  {
+    "query": "What are the most recent concentrations of carbon dioxide, methane, and nitrous oxide in the atmosphere? I need this data for an analysis of air quality.",
+    "query_id": "1017",
+    "apis": [
+      {
+        "category": "Science",
+        "tool": "Daily atmosphere carbon dioxide concentration",
+        "api": "Carbon dioxide endpoint",
+        "api_description": "The response will be an object with no CORS resources enabled.",
+        "parameters": {},
+        "api_status": "normal_response"
+      },
+      {
+        "category": "Science",
+        "tool": "Atmosphere methane concentration",
+        "api": "Methane endpoint",
+        "api_description": "The response will be an object with no CORS resources enabled.",
+        "parameters": {},
+        "api_status": "normal_response"
+      },
+      {
+        "category": "Science",
+        "tool": "Atmosphere nitrous oxide levels",
+        "api": "Nitrous endpoint",
+        "api_description": "The response will be an object with no CORS resources enabled.",
+        "parameters": {},
+        "api_status": "normal_response"
+      }
+    ]
+  },
+  {
+    "query": "Please retrieve the latest data on atmospheric carbon dioxide, methane, and nitrous oxide levels for my environmental study.",
+    "query_id": "1018",
+    "apis": [
+      {
+        "category": "Science",
+        "tool": "Daily atmosphere carbon dioxide concentration",
+        "api": "Carbon dioxide endpoint",
+        "api_description": "The response will be an object with no CORS resources enabled.",
+        "parameters": {},
+        "api_status": "normal_response"
+      },
+      {
+        "category": "Science",
+        "tool": "Atmosphere methane concentration",
+        "api": "Methane endpoint",
+        "api_description": "The response will be an object with no CORS resources enabled.",
+        "parameters": {},
+        "api_status": "normal_response"
+      },
+      {
+        "category": "Science",
+        "tool": "Atmosphere nitrous oxide levels",
+        "api": "Nitrous endpoint",
+        "api_description": "The response will be an object with no CORS resources enabled.",
+        "parameters": {},
+        "api_status": "normal_response"
+      }
+    ]
+  },
+  {
+    "query": "I'm hosting a comedy night and need some good material. Can you find me some dark humor jokes, a few classic jokes, and maybe even some interesting riddles?",
+    "query_id": "1019",
+    "apis": [
+      {
+        "category": "Entertainment",
+        "tool": "Dark Humor Jokes",
+        "api": "Get Joke",
+        "api_description": "Fetch a joke.",
+        "parameters": {},
+        "api_status": "normal_response"
+      },
+      {
+        "category": "Entertainment",
+        "tool": "Humor-Jokes-and-Memes",
+        "api": "search-jokes",
+        "api_description": "Search for jokes.\nSee https://humorapi.com/docs/#Search-Jokes for more.",
+        "parameters": {},
+        "api_status": "normal_response"
+      },
+      {
+        "category": "Entertainment",
+        "tool": "Riddles by API-Ninjas",
+        "api": "/v1/riddles",
+        "api_description": "API Ninjas Riddles API endpoint. Returns one or more random riddles.",
+        "parameters": {},
+        "api_status": "normal_response"
+      }
+    ]
+  },
+  {
+    "query": "Could you provide me with a collection of dark humor jokes, along with a couple of classic jokes and several entertaining riddles for my upcoming event?",
+    "query_id": "1020",
+    "apis": [
+      {
+        "category": "Entertainment",
+        "tool": "Dark Humor Jokes",
+        "api": "Get Joke",
+        "api_description": "Fetch a joke.",
+        "parameters": {},
+        "api_status": "normal_response"
+      },
+      {
+        "category": "Entertainment",
+        "tool": "Humor-Jokes-and-Memes",
+        "api": "search-jokes",
+        "api_description": "Search for jokes.\nSee https://humorapi.com/docs/#Search-Jokes for more.",
+        "parameters": {},
+        "api_status": "normal_response"
+      },
+      {
+        "category": "Entertainment",
+        "tool": "Riddles by API-Ninjas",
+        "api": "/v1/riddles",
+        "api_description": "API Ninjas Riddles API endpoint. Returns one or more random riddles.",
+        "parameters": {},
+        "api_status": "normal_response"
+      }
+    ]
+  },
+  {
+    "query": "Get me some dark humor jokes, a handful of regular jokes, and a few fun riddles that I can use to entertain my guests at the party.",
+    "query_id": "1021",
+    "apis": [
+      {
+        "category": "Entertainment",
+        "tool": "Dark Humor Jokes",
+        "api": "Get Joke",
+        "api_description": "Fetch a joke.",
+        "parameters": {},
+        "api_status": "normal_response"
+      },
+      {
+        "category": "Entertainment",
+        "tool": "Humor-Jokes-and-Memes",
+        "api": "search-jokes",
+        "api_description": "Search for jokes.\nSee https://humorapi.com/docs/#Search-Jokes for more.",
+        "parameters": {},
+        "api_status": "normal_response"
+      },
+      {
+        "category": "Entertainment",
+        "tool": "Riddles by API-Ninjas",
+        "api": "/v1/riddles",
+        "api_description": "API Ninjas Riddles API endpoint. Returns one or more random riddles.",
+        "parameters": {},
+        "api_status": "normal_response"
+      }
+    ]
+  },
+  {
+    "query": "I need to generate an invoice for our client in Berlin. Could you create one for the services rendered, including the tax, in Euros, dated today, with my company name as 'Tech Solutions' and their company name as 'Client AB'?",
+    "query_id": "1022",
+    "apis": [
+      {
+        "category": "Business_Software",
+        "tool": "Invoices Generator",
+        "api": "Generate Invoice",
+        "api_description": "Quickly generate invoices through a REST API endpoint",
+        "parameters": {
+          "services": "services rendered",
+          "tax": "calculated_tax_amount",
+          "currency": "EUR",
+          "date": "today_date",
+          "buyer_company_name": "Client AB",
+          "number": "invoice_number",
+          "seller_company_name": "Tech Solutions"
+        },
+        "api_status": "normal_response"
+      }
+    ]
+  },
+  {
+    "query": "Please help me create a professional PDF invoice for my client, 'Client AB,' for services provided this month, including a tax amount. The invoice should display my company name 'Tech Solutions' and be in Euros.",
+    "query_id": "1023",
+    "apis": [
+      {
+        "category": "Business_Software",
+        "tool": "Invoices Generator",
+        "api": "Generate Invoice",
+        "api_description": "Quickly generate invoices through a REST API endpoint",
+        "parameters": {
+          "services": "services rendered",
+          "tax": "calculated_tax_amount",
+          "currency": "EUR",
+          "date": "today_date",
+          "buyer_company_name": "Client AB",
+          "number": "invoice_number",
+          "seller_company_name": "Tech Solutions"
+        },
+        "api_status": "normal_response"
+      }
+    ]
+  },
+  {
+    "query": "Can you generate an invoice in PDF format for our services rendered to 'Client AB'? It should include the applicable tax, be dated today, show the amount in Euros, and list 'Tech Solutions' as the seller.",
+    "query_id": "1024",
+    "apis": [
+      {
+        "category": "Business_Software",
+        "tool": "Invoices Generator",
+        "api": "Generate Invoice",
+        "api_description": "Quickly generate invoices through a REST API endpoint",
+        "parameters": {
+          "services": "services rendered",
+          "tax": "calculated_tax_amount",
+          "currency": "EUR",
+          "date": "today_date",
+          "buyer_company_name": "Client AB",
+          "number": "invoice_number",
+          "seller_company_name": "Tech Solutions"
+        },
+        "api_status": "normal_response"
+      }
+    ]
+  },
+  {
+    "query": "I'm expecting a baby girl and would love to know the most popular baby girl names in Korea right now. Can you provide me with that ranking?",
+    "query_id": "1025",
+    "final_answer": "Here are the most popular baby girl names in Korea right now, along with their rankings and the number of babies given each name:\n\n1. 서윤 (Seo-yun): 37,386\n2. 서연 (Seo-yeon): 37,336\n3. 지우 (Ji-woo): 32,749\n4. 서현 (Seo-hyun): 30,468\n5. 하윤 (Ha-yun): 29,914\n6. 하은 (Ha-eun): 29,185\n7. 민서 (Min-seo): 28,967\n8. 지유 (Ji-yu): 25,516\n9. 윤서 (Yun-seo): 25,217\n10. 채원 (Chae-won): 23,707\n\nIf you would like to see more names or their meanings, let me know!",
+    "apis": [
+      {
+        "category": "Other",
+        "tool": "Korean Baby Name Ranking",
+        "api": "Korean baby girl names",
+        "api_description": "This endpoint will return the most popular Korean baby name in Korea.\nIt will show you the name, ran",
+        "parameters": {},
+        "api_status": "normal_response"
+      },
+      {
+        "category": "Other",
+        "tool": "Baby Names by API-Ninjas",
+        "api": "/v1/babynames",
+        "api_description": "API Ninjas Baby Names API endpoint. Returns 10 baby name results.",
+        "parameters": {},
+        "api_status": "normal_response"
+      }
+    ]
+  },
+  {
+    "query": "What are the top ranked Korean baby girl names? I'm trying to find something beautiful and trendy for my upcoming daughter.",
+    "query_id": "1026",
+    "apis": [
+      {
+        "category": "Other",
+        "tool": "Korean Baby Name Ranking",
+        "api": "Korean baby girl names",
+        "api_description": "This endpoint will return the most popular Korean baby name in Korea.\nIt will show you the name, ran",
+        "parameters": {},
+        "api_status": "normal_response"
+      },
+      {
+        "category": "Other",
+        "tool": "Baby Names by API-Ninjas",
+        "api": "/v1/babynames",
+        "api_description": "API Ninjas Baby Names API endpoint. Returns 10 baby name results.",
+        "parameters": {},
+        "api_status": "normal_response"
+      }
+    ]
+  },
+  {
+    "query": "Find me the most popular Korean baby girl names. I want to ensure I pick a name that's currently in vogue for my newborn.",
+    "query_id": "1027",
+    "final_answer": "Here are the most popular Korean baby girl names currently in Korea, ranked by recent statistics:\n\n1. 서윤 (Seo-yoon) – 37,386\n2. 서연 (Seo-yeon) – 37,336\n3. 지우 (Ji-woo) – 32,749\n4. 서현 (Seo-hyun) – 30,468\n5. 하윤 (Ha-yoon) – 29,914\n6. 하은 (Ha-eun) – 29,185\n7. 민서 (Min-seo) – 28,967\n8. 지유 (Ji-yoo) – 25,516\n9. 윤서 (Yoon-seo) – 25,217\n10. 채원 (Chae-won) – 23,707\n\nThese names are currently in vogue and are widely chosen for newborn girls in Korea. If you want your daughter to have a modern and trendy Korean name, these are excellent options.",
+    "apis": [
+      {
+        "category": "Other",
+        "tool": "Korean Baby Name Ranking",
+        "api": "Korean baby girl names",
+        "api_description": "This endpoint will return the most popular Korean baby name in Korea.\nIt will show you the name, ran",
+        "parameters": {},
+        "api_status": "normal_response"
+      },
+      {
+        "category": "Other",
+        "tool": "Baby Names by API-Ninjas",
+        "api": "/v1/babynames",
+        "api_description": "API Ninjas Baby Names API endpoint. Returns 10 baby name results.",
+        "parameters": {},
+        "api_status": "normal_response"
+      }
+    ]
+  },
+  {
+    "query": "I'm researching the impact of greenhouse gases, specifically the monthly levels of methane and carbon dioxide from 2020 to present. Can you provide me with the concentrations for these gases over that period?",
+    "query_id": "1028",
+    "apis": [
+      {
+        "category": "Science",
+        "tool": "Atmosphere methane concentration",
+        "api": "Methane endpoint",
+        "api_description": "The response will be an object with no CORS resources enabled.",
+        "parameters": {},
+        "api_status": "normal_response"
+      },
+      {
+        "category": "Science",
+        "tool": "Daily atmosphere carbon dioxide concentration",
+        "api": "Carbon dioxide endpoint",
+        "api_description": "The response will be an object with no CORS resources enabled.",
+        "parameters": {},
+        "api_status": "normal_response"
+      }
+    ]
+  },
+  {
+    "query": "Could you share the monthly concentrations of methane and carbon dioxide in the atmosphere from January 2020 to the current date? I’m looking to analyze the trends in greenhouse gas emissions.",
+    "query_id": "1029",
+    "final_answer": "Here are the monthly concentrations of methane and carbon dioxide in the atmosphere from January 2020 to the present, suitable for trend analysis of greenhouse gas emissions:\n\n1. Methane (CH4):\n- The monthly atmospheric methane average and trend values are available from the dataset, showing consistent increases over time. Key statistics are provided for each month, and recent values (2020 onward) indicate continued rising trends, with uncertainty measures included.\n\n2. Carbon Dioxide (CO2):\n- The daily CO2 concentrations can be averaged for each month, providing a clear trend. From January 2020 to the current date, CO2 levels show a persistent upward trajectory, reflecting ongoing emissions. Monthly averages can be calculated from daily values for precise analysis.\n\nBoth methane and carbon dioxide show consistent increases from 2020 to now, supporting the overall observation that greenhouse gas emissions have continued to rise in recent years. If you want detailed numerical tables for each month, let me know and I can prepare those for further analysis.",
+    "apis": [
+      {
+        "category": "Science",
+        "tool": "Atmosphere methane concentration",
+        "api": "Methane endpoint",
+        "api_description": "The response will be an object with no CORS resources enabled.",
+        "parameters": {},
+        "api_status": "normal_response"
+      },
+      {
+        "category": "Science",
+        "tool": "Daily atmosphere carbon dioxide concentration",
+        "api": "Carbon dioxide endpoint",
+        "api_description": "The response will be an object with no CORS resources enabled.",
+        "parameters": {},
+        "api_status": "normal_response"
+      }
+    ]
+  },
+  {
+    "query": "Please retrieve the atmosphere's methane and carbon dioxide concentrations on a monthly basis starting from January 2020. I'm compiling data on greenhouse gas levels for my report.",
+    "query_id": "1030",
+    "final_answer": "Atmospheric methane and carbon dioxide concentration data are available starting well before January 2020 and are organized monthly (for methane: years and decimals representing months, for CO2: daily data which can be averaged per month). For your report on monthly greenhouse gas levels since January 2020:\n\n- Methane: Each record provides a 'date' (in the format YYYY.MM) and 'average' (global average methane concentration in parts per billion, ppb) per month. For example, for January 2020 the methane value can be found and values for each subsequent month are available.\n\n- Carbon dioxide: The data provides daily concentrations (cycle and trend, in parts per million, ppm). These daily values can be averaged for each month starting from January 2020 to provide a monthly CO2 trend.\n\nIf you need the actual concentration averages per month for each gas since January 2020, these numbers are accessible and can be extracted and organized side-by-side chronologically for trend comparison in your report.\n\nLet me know if you would like the processed monthly averages in table format from January 2020 onward for either or both gases.",
+    "apis": [
+      {
+        "category": "Science",
+        "tool": "Atmosphere methane concentration",
+        "api": "Methane endpoint",
+        "api_description": "The response will be an object with no CORS resources enabled.",
+        "parameters": {},
+        "api_status": "normal_response"
+      },
+      {
+        "category": "Science",
+        "tool": "Daily atmosphere carbon dioxide concentration",
+        "api": "Carbon dioxide endpoint",
+        "api_description": "The response will be an object with no CORS resources enabled.",
+        "parameters": {},
+        "api_status": "normal_response"
+      }
+    ]
+  },
+  {
+    "query": "I need to validate the phone number +4915123456789 to ensure it's properly formatted. Can you check that for me?",
+    "query_id": "1031",
+    "final_answer": "The phone number +4915123456789 is in the correct format. It is a mobile number from Germany (region code DE), and both possible and valid. The E.164 format is +4915123456789, and the carrier is T-Mobile. It may not be valid for Uruguay (UY), but is valid for Germany.",
+    "apis": [
+      {
+        "category": "SMS",
+        "tool": "PhoneNumberValidate",
+        "api": "Validate",
+        "api_description": "Validate any phone number from any country.",
+        "parameters": {
+          "number": "+4915123456789"
+        },
+        "api_status": "normal_response"
+      }
+    ]
+  },
+  {
+    "query": "Can you help me confirm if the phone number +4915123456789 is valid? I want to avoid any invalid numbers in my database.",
+    "query_id": "1032",
+    "apis": [
+      {
+        "category": "SMS",
+        "tool": "PhoneNumberValidate",
+        "api": "Validate",
+        "api_description": "Validate any phone number from any country.",
+        "parameters": {
+          "number": "+4915123456789"
+        },
+        "api_status": "normal_response"
+      }
+    ]
+  },
+  {
+    "query": "Please validate the phone number +4915123456789 for me. It's important that I only have working numbers in my contact list.",
+    "query_id": "1033",
+    "apis": [
+      {
+        "category": "SMS",
+        "tool": "PhoneNumberValidate",
+        "api": "Validate",
+        "api_description": "Validate any phone number from any country.",
+        "parameters": {
+          "number": "+4915123456789"
+        },
+        "api_status": "normal_response"
+      }
+    ]
+  },
+  {
+    "query": "I'm trying to get in shape and need a workout plan that includes exercises for my arms and chest. I have about 30 minutes each day and some dumbbells. Can you help me with that?",
+    "query_id": "1034",
+    "final_answer": "Here's a customized 30-minute workout plan focused on arms and chest using dumbbells for a beginner:\n\nWarm Up:\n- Jumping Jacks: 5 minutes\n- Arm Circles: 5 minutes\n\nMain Exercises:\n- Dumbbell Bicep Curls: 3 sets of 12 reps\n- Dumbbell Chest Press: 3 sets of 12 reps\n- Tricep Dips: 3 sets of 12 reps\n- Push-ups: 3 sets of 10 reps\n\nCool Down:\n- Stretching: 10 minutes\n- Deep Breathing: 5 minutes\n\nThis plan will help you target your arms and chest efficiently in 30 minutes each day. Let me know if you want modifications or have other goals!",
+    "apis": [
+      {
+        "category": "Health_and_Fitness",
+        "tool": "Workout Planner",
+        "api": "Get Customized Plan",
+        "api_description": "The /customized endpoint provides a way for users to generate personalized workout plans based on th",
+        "parameters": {
+          "fitness_goals": "muscle gain",
+          "fitness_level": "intermediate",
+          "muscle": "arms, chest",
+          "equipment": "dumbbells",
+          "time": "30 minutes"
+        },
+        "api_status": "normal_response"
+      },
+      {
+        "category": "Health_and_Fitness",
+        "tool": "Exercises by API-Ninjas",
+        "api": "/v1/exercises",
+        "api_description": "API Ninjas Exercises API endpoint. Returns up to 10 exercises that satisfy the given parameters.",
+        "parameters": {},
+        "api_status": "normal_response"
+      },
+      {
+        "category": "Health_and_Fitness",
+        "tool": "Calories Burned by API-Ninjas",
+        "api": "/v1/caloriesburned",
+        "api_description": "API Ninjas Calories Burned API endpoint.",
+        "parameters": {
+          "activity": "weight lifting"
+        },
+        "api_status": "normal_response"
+      }
+    ]
+  },
+  {
+    "query": "Could you help me design a workout plan focusing on muscle gain for my chest using dumbbells? Also, I’d love to see current articles discussing fitness and health trends.",
+    "query_id": "2001",
+    "final_answer": "Here's a workout plan focusing on muscle gain for your chest using dumbbells:\n\nWarm Up:\n- Jumping Jacks: 5 minutes\n\nMain Exercises:\n1. Dumbbell Bench Press — 4 sets x 12 reps\n2. Dumbbell Flyes — 3 sets x 12 reps\n3. Incline Dumbbell Press — 4 sets x 10 reps\n\nCool Down:\n- Stretching: 5 minutes\n\nCurrent articles discussing fitness and health trends:\n1. \"Top 10 Fitness Trends for 2023\" — Highlights HIIT, virtual workouts, and more (Health & Fitness Magazine, 2023-10-06)\n2. \"The Rise of Mindfulness in Health\" — Explores mindfulness practices in fitness routines (Wellness Weekly, 2023-10-07)\n3. \"Nutrition Trends: Plant-Based Diets\" — Examines the growing popularity of plant-based diets (Nutrition Today, 2023-10-08)\n4. \"Wearable Technology in Fitness\" — Covers advancements in fitness trackers and wearable tech (Tech Health Review, 2023-10-09)\n5. \"Group Fitness Classes: A Social Approach\" — Looks at the effectiveness and social benefits of group fitness classes (Fitness Insider, 2023-10-10)\n\nThis plan and these articles should help you target your chest muscles and stay informed on the latest fitness trends!",
+    "apis": [
+      {
+        "category": "Health_and_Fitness",
+        "tool": "Workout Planner",
+        "api": "Get Customized Plan",
+        "api_description": "The /customized endpoint provides a way for users to generate personalized workout plans based on th",
+        "parameters": {
+          "fitness_goals": "muscle gain",
+          "fitness_level": "intermediate",
+          "muscle": "chest",
+          "equipment": "dumbbells",
+          "time": "60 minutes"
+        },
+        "api_status": "normal_response"
+      },
+      {
+        "category": "Data",
+        "tool": "Real-Time News Data",
+        "api": "Search",
+        "api_description": "Search news articles by query with an option to limit the results to a specific time range.",
+        "parameters": {
+          "query": "fitness and health trends"
+        },
+        "api_status": "normal_response"
+      }
+    ]
+  },
+  {
+    "query": "I need a 60-minute intermediate workout plan targeting chest muscles with dumbbells. Please find news articles related to fitness and health trends at the same time.",
+    "query_id": "2002",
+    "final_answer": "Here is your 60-minute intermediate workout plan targeting chest muscles with dumbbells:\n\nWarm-Up:\n- Jumping Jacks: 5 minutes\n- Arm Circles: 5 minutes\n\nMain Exercises:\n1. Dumbbell Bench Press: 4 sets of 10 reps\n2. Dumbbell Flyes: 4 sets of 12 reps\n3. Incline Dumbbell Press: 3 sets of 10 reps\n4. Arnold Press: 3 sets of 12 reps\n5. Push-Ups: 3 sets of 15 reps\n\nCool Down:\n- Stretching: 10 minutes\n- Deep Breathing: 5 minutes\n\nAlongside your workout, here are some recent news articles about fitness and health trends:\n\n1. Top Fitness Trends for 2024: AI Workouts, Virtual Coaches, and More – https://example.com/fitness-trends-2024\n2. How Strength Training Is Gaining Ground Among All Age Groups – https://example.com/strength-training-trends\n3. Dumbbell Workouts: Why Free Weights Remain Popular in 2024 – https://example.com/dumbbell-popularity\n4. 10-Minute Workouts: The New Trend in Fitness – https://example.com/10-minute-workouts\n5. Home Fitness Devices and Apps: Revolutionizing Healthy Habits – https://example.com/home-fitness-devices",
+    "apis": [
+      {
+        "category": "Health_and_Fitness",
+        "tool": "Workout Planner",
+        "api": "Get Customized Plan",
+        "api_description": "The /customized endpoint provides a way for users to generate personalized workout plans based on th",
+        "parameters": {
+          "fitness_goals": "muscle gain",
+          "fitness_level": "intermediate",
+          "muscle": "chest",
+          "equipment": "dumbbells",
+          "time": "60 minutes"
+        },
+        "api_status": "normal_response"
+      },
+      {
+        "category": "Data",
+        "tool": "Real-Time News Data",
+        "api": "Search",
+        "api_description": "Search news articles by query with an option to limit the results to a specific time range.",
+        "parameters": {
+          "query": "fitness and health trends"
+        },
+        "api_status": "normal_response"
+      }
+    ]
+  },
+  {
+    "query": "As part of my fitness journey, I'm seeking a customized workout plan for muscle gain with a focus on chest exercises using dumbbells. Additionally, I'm interested in the latest news on fitness and health trends.",
+    "query_id": "2003",
+    "final_answer": "Here is your customized 40-minute workout plan for muscle gain with a focus on chest, using dumbbells (intermediate level):\n\nWarm Up:\n- Jumping Jacks: 5 minutes\n- Arm Circles: 3 minutes\n- Bodyweight Push-ups: 3 minutes\n\nMain Exercises:\n1. Dumbbell Bench Press: 4 sets x 8-10 reps\n2. Dumbbell Flyes: 3 sets x 10-12 reps\n3. Incline Dumbbell Press: 3 sets x 8-10 reps\n4. Chest Dips (using a bench or chair): 3 sets x 8-10 reps\n5. Push-ups: 3 sets x 12-15 reps\n\nCool Down:\n- Shoulder Rolls: 3 minutes\n- Chest Stretch: 5 minutes\n- Deep Breathing: 5 minutes\n\nAs for fitness and health trends, I'm unable to retrieve the most current news articles at this moment based on the given tools. However, you can check reputable sources like Google News, Healthline, or FitnessMagazine for the latest updates. If you need summaries of specific fitness topics, feel free to ask!",
+    "apis": [
+      {
+        "category": "Health_and_Fitness",
+        "tool": "Workout Planner",
+        "api": "Get Customized Plan",
+        "api_description": "The /customized endpoint provides a way for users to generate personalized workout plans based on th",
+        "parameters": {
+          "fitness_goals": "muscle gain",
+          "fitness_level": "intermediate",
+          "muscle": "chest",
+          "equipment": "dumbbells",
+          "time": "60 minutes"
+        },
+        "api_status": "normal_response"
+      },
+      {
+        "category": "Data",
+        "tool": "Real-Time News Data",
+        "api": "Search",
+        "api_description": "Search news articles by query with an option to limit the results to a specific time range.",
+        "parameters": {
+          "query": "fitness and health trends"
+        },
+        "api_status": "normal_response"
+      }
+    ]
+  },
+  {
+    "query": "I'm curious about the environmental impact in New York City, so please get the latest carbon dioxide levels and check the income data for coordinates 40.730610, -73.935242.",
+    "query_id": "2004",
+    "apis": [
+      {
+        "category": "Science",
+        "tool": "Daily atmosphere carbon dioxide concentration",
+        "api": "Carbon dioxide endpoint",
+        "api_description": "The response will be an object with no CORS resources enabled.",
+        "parameters": {},
+        "api_status": "normal_response"
+      },
+      {
+        "category": "Data",
+        "tool": "World Coordinates to Income",
+        "api": "World Coordinate to Income",
+        "api_description": "Granular city per capita income",
+        "parameters": {
+          "lon": -73.935242,
+          "lat": 40.73061
+        },
+        "api_status": "normal_response"
+      }
+    ]
+  },
+  {
+    "query": "Can you provide me with the atmospheric CO2 concentration today along with the income statistics for New York at the coordinates 40.730610 latitude and -73.935242 longitude?",
+    "query_id": "2005",
+    "apis": [
+      {
+        "category": "Science",
+        "tool": "Daily atmosphere carbon dioxide concentration",
+        "api": "Carbon dioxide endpoint",
+        "api_description": "The response will be an object with no CORS resources enabled.",
+        "parameters": {},
+        "api_status": "normal_response"
+      },
+      {
+        "category": "Data",
+        "tool": "World Coordinates to Income",
+        "api": "World Coordinate to Income",
+        "api_description": "Granular city per capita income",
+        "parameters": {
+          "lon": -73.935242,
+          "lat": 40.73061
+        },
+        "api_status": "normal_response"
+      }
+    ]
+  },
+  {
+    "query": "Please retrieve the current carbon dioxide level in the atmosphere and the per-capita income information for the location at latitude 40.730610 and longitude -73.935242 in New York City.",
+    "query_id": "2006",
+    "final_answer": "The current carbon dioxide level in the atmosphere, according to recent daily data, is around 400 ppm (parts per million). The per-capita income for the location at latitude 40.730610 and longitude -73.935242 in New York City is approximately $73,731.",
+    "apis": [
+      {
+        "category": "Science",
+        "tool": "Daily atmosphere carbon dioxide concentration",
+        "api": "Carbon dioxide endpoint",
+        "api_description": "The response will be an object with no CORS resources enabled.",
+        "parameters": {},
+        "api_status": "normal_response"
+      },
+      {
+        "category": "Data",
+        "tool": "World Coordinates to Income",
+        "api": "World Coordinate to Income",
+        "api_description": "Granular city per capita income",
+        "parameters": {
+          "lon": -73.935242,
+          "lat": 40.73061
+        },
+        "api_status": "normal_response"
+      }
+    ]
+  },
+  {
+    "query": "Can you tell me about the current CO2 emissions from electricity in Germany? I'm looking to understand the environmental impact, especially compared to other countries.",
+    "query_id": "2007",
+    "final_answer": "The current CO2 emissions from electricity generation in Germany are 511 grams per kilowatt-hour (g/KWH). Over the last 30 days, the average was 444 g/KWH, and over the last year, the average was 414 g/KWH. This means Germany's electricity currently has a significant carbon footprint compared to nations relying more on renewables or nuclear energy, as the global average varies widely (for example, France with heavy nuclear usage has much lower CO2 per KWH, while countries using coal can exceed 800 g/KWH).\n\nUnderstanding these values helps contextualize Germany's environmental impact from electricity: while it is making progress with renewables, a notable portion of its energy mix still comes from fossil fuels, resulting in relatively high emissions compared to countries with cleaner energy sources.",
+    "apis": [
+      {
+        "category": "Energy",
+        "tool": "Electricity Carbon Footprint Germany",
+        "api": "CO2 Emission",
+        "api_description": "The CO2 Emission endpoint will provide carbon emissions in grams per Kilo-Watt-Hour.  To latest and ",
+        "parameters": {},
+        "api_status": "normal_response"
+      },
+      {
+        "category": "Data",
+        "tool": "Country Location API",
+        "api": "Country Location API",
+        "api_description": "The Country Location API is a RESTful API that allows developers to retrieve location data for any c",
+        "parameters": {
+          "country": "Germany"
+        },
+        "api_status": "normal_response"
+      }
+    ]
+  },
+  {
+    "query": "I'd like to find out the grams of CO2 emitted per kilowatt-hour of electricity in Germany. Also, if you could provide the country’s geographic data, that would be great!",
+    "query_id": "2008",
+    "apis": [
+      {
+        "category": "Energy",
+        "tool": "Electricity Carbon Footprint Germany",
+        "api": "CO2 Emission",
+        "api_description": "The CO2 Emission endpoint will provide carbon emissions in grams per Kilo-Watt-Hour.  To latest and ",
+        "parameters": {},
+        "api_status": "normal_response"
+      },
+      {
+        "category": "Data",
+        "tool": "Country Location API",
+        "api": "Country Location API",
+        "api_description": "The Country Location API is a RESTful API that allows developers to retrieve location data for any c",
+        "parameters": {
+          "country": "Germany"
+        },
+        "api_status": "normal_response"
+      }
+    ]
+  },
+  {
+    "query": "Please provide the latest figures on carbon emissions in grams per kilowatt-hour for electricity in Germany. Additionally, I need the country’s location data for a report I’m preparing.",
+    "query_id": "2009",
+    "final_answer": "The latest figures for carbon emissions from electricity generation in Germany are as follows:\n- Current value: 511 grams CO2 per kilowatt-hour (as of 2022-08-20)\n- 30-day average: 444 grams CO2 per kilowatt-hour\n- 365-day average: 414 grams CO2 per kilowatt-hour.\n\nAdditionally, here is Germany's location information:\n- Capital: Berlin\n- Currency: Euro (EUR)\n- Languages: German\n- Population: Approximately 83 million\n- Region: Europe\n- Subregion: Western Europe\n\nPlease let me know if you need further details or clarifications for your report.",
+    "apis": [
+      {
+        "category": "Energy",
+        "tool": "Electricity Carbon Footprint Germany",
+        "api": "CO2 Emission",
+        "api_description": "The CO2 Emission endpoint will provide carbon emissions in grams per Kilo-Watt-Hour.  To latest and ",
+        "parameters": {},
+        "api_status": "normal_response"
+      },
+      {
+        "category": "Data",
+        "tool": "Country Location API",
+        "api": "Country Location API",
+        "api_description": "The Country Location API is a RESTful API that allows developers to retrieve location data for any c",
+        "parameters": {
+          "country": "Germany"
+        },
+        "api_status": "normal_response"
+      }
+    ]
+  },
+  {
+    "query": "Could you tell me the current CO2 emissions from electricity in Germany? Also, I need an overview of all the different food types to understand how food price inflation is affecting them.",
+    "query_id": "2010",
+    "apis": [
+      {
+        "category": "Energy",
+        "tool": "Electricity Carbon Footprint Germany",
+        "api": "CO2 Emission",
+        "api_description": "The CO2 Emission endpoint will provide carbon emissions in grams per Kilo-Watt-Hour.  To latest and ",
+        "parameters": {},
+        "api_status": "normal_response"
+      },
+      {
+        "category": "Data",
+        "tool": "Food Price Inflation",
+        "api": "Get all Food typen",
+        "api_description": "Get all the food typen from our Data.",
+        "parameters": {},
+        "api_status": "normal_response"
+      }
+    ]
+  },
+  {
+    "query": "Please provide me with the latest data on carbon emissions from electricity use in Germany. Additionally, I want a complete list of food types to analyze their inflation rates.",
+    "query_id": "2011",
+    "apis": [
+      {
+        "category": "Energy",
+        "tool": "Electricity Carbon Footprint Germany",
+        "api": "CO2 Emission",
+        "api_description": "The CO2 Emission endpoint will provide carbon emissions in grams per Kilo-Watt-Hour.  To latest and ",
+        "parameters": {},
+        "api_status": "normal_response"
+      },
+      {
+        "category": "Data",
+        "tool": "Food Price Inflation",
+        "api": "Get all Food typen",
+        "api_description": "Get all the food typen from our Data.",
+        "parameters": {},
+        "api_status": "normal_response"
+      }
+    ]
+  },
+  {
+    "query": "I'm researching environmental impacts and food affordability. Can you retrieve the current CO2 emission levels from electricity in Germany and give me all food types to see how they're influenced by inflation over time?",
+    "query_id": "2012",
+    "apis": [
+      {
+        "category": "Energy",
+        "tool": "Electricity Carbon Footprint Germany",
+        "api": "CO2 Emission",
+        "api_description": "The CO2 Emission endpoint will provide carbon emissions in grams per Kilo-Watt-Hour.  To latest and ",
+        "parameters": {},
+        "api_status": "normal_response"
+      },
+      {
+        "category": "Data",
+        "tool": "Food Price Inflation",
+        "api": "Get all Food typen",
+        "api_description": "Get all the food typen from our Data.",
+        "parameters": {},
+        "api_status": "normal_response"
+      }
+    ]
+  },
+  {
+    "query": "I'm interested in staying updated with the latest NBA news, especially concerning trades and game results. Additionally, I want to read about the most recent developments in climate change. Can you fetch those articles for me?",
+    "query_id": "2013",
+    "final_answer": "Here are the latest NBA news articles (with a focus on trades and game results):\n\n- Grizzlies Had Interest in Draymond (Bleacher Report): https://bleacherreport.com/articles/10080621-draymond-green-rumors-grizzlies-had-interest-in-warriors-fa-before-smart-trade\n- Wild Asking Price for Tobias (Bleacher Report): https://bleacherreport.com/articles/10080569-tobias-harris-trade-rumors-76ers-asked-cavs-for-evan-mobley-allen-draft-pick\n- Suns Keeping Deandre Ayton (Bleacher Report): https://bleacherreport.com/articles/10080592-nba-rumors-suns-wont-trade-deandre-ayton-will-play-with-kevin-durant-booker-beal\n- Numbers to know from 3 offseason trades (NBA): https://www.nba.com/news/numbers-to-know-from-3-major-offseason-trades\n- John Collins-Rudy Gay trade grades: Jazz buy low, Hawks clean up cap sheet (NBA Canada): https://www.sportingnews.com/ca/nba/news/john-collins-rudy-gay-trade-grades-jazz-hawks/bus8lpfxunjagflxgrltbsfk\n\nLatest articles on climate change:\n\n- Biden moves to protect old-growth forests from climate change (The Guardian): https://www.theguardian.com/us-news/2023/dec/19/biden-administration-old-growth-forests-protection-climate-change\n- Explainer: Carbon capture and storage and removing CO2 from the air (Reuters): https://www.reuters.com/sustainability/climate-energy/carbon-capture-storage-removing-co2-2023-12-19/\n- Small Island States Seek Climate Change Justice at UN Court (TIME): https://time.com/6554477/island-states-un-court-climate-change/\n- Why 2023 Was Exceptionally Hot (BBC): https://www.bbc.com/news/science-environment-67873782\n- Can AI Help Fight Climate Change? (Nature): https://www.nature.com/articles/d41586-023-03953-7\n\nIf you want more details or articles from a specific category, let me know!",
+    "apis": [
+      {
+        "category": "Sports",
+        "tool": "Nba Latest News",
+        "api": "Get all latest Nba articles",
+        "api_description": "GET /articles\nReturns a list of all the latest nba articles.\n\nOptional params:\n\nsource returns artic",
+        "parameters": {},
+        "api_status": "normal_response"
+      },
+      {
+        "category": "News_Media",
+        "tool": "Climate Change Live_v3",
+        "api": "Get All Climate Change News",
+        "api_description": "This endpoint will return back  all news about the climate change from all over world.",
+        "parameters": {},
+        "api_status": "normal_response"
+      }
+    ]
+  },
+  {
+    "query": "Could you pull the latest updates from the NBA along with the newest articles on climate change? I want to keep informed about both sports and environmental issues.",
+    "query_id": "2014",
+    "apis": [
+      {
+        "category": "Sports",
+        "tool": "Nba Latest News",
+        "api": "Get all latest Nba articles",
+        "api_description": "GET /articles\nReturns a list of all the latest nba articles.\n\nOptional params:\n\nsource returns artic",
+        "parameters": {},
+        "api_status": "normal_response"
+      },
+      {
+        "category": "News_Media",
+        "tool": "Climate Change Live_v3",
+        "api": "Get All Climate Change News",
+        "api_description": "This endpoint will return back  all news about the climate change from all over world.",
+        "parameters": {},
+        "api_status": "normal_response"
+      }
+    ]
+  },
+  {
+    "query": "Please gather the most current NBA articles, highlighting player news and game outcomes, as well as recent global news on climate change. I'm eager to learn about both areas.",
+    "query_id": "2015",
+    "apis": [
+      {
+        "category": "Sports",
+        "tool": "Nba Latest News",
+        "api": "Get all latest Nba articles",
+        "api_description": "GET /articles\nReturns a list of all the latest nba articles.\n\nOptional params:\n\nsource returns artic",
+        "parameters": {},
+        "api_status": "normal_response"
+      },
+      {
+        "category": "News_Media",
+        "tool": "Climate Change Live_v3",
+        "api": "Get All Climate Change News",
+        "api_description": "This endpoint will return back  all news about the climate change from all over world.",
+        "parameters": {},
+        "api_status": "normal_response"
+      }
+    ]
+  },
+  {
+    "query": "I’d like to understand my health and financial standing better. Can you calculate my BMI using my weight of 70 kg and height of 1.75 meters, and also provide the income data for the ZIP code 90210?",
+    "query_id": "2016",
+    "final_answer": "Your BMI is 22.9, which is classified as Normal. For ZIP code 90210, the household median income is $154,740, household mean income is $300,143, family median income is $204,205, family mean income is $381,600, and there are 7,947 households. The non-family household median income is $68,931 and mean income is $156,185. The family poverty rate is 7.93%.",
+    "apis": [
+      {
+        "category": "Health_and_Fitness",
+        "tool": "Body Mass Index (BMI) Calculator",
+        "api": "Metric [Kilograms]",
+        "api_description": "This endpoint will calculate the BMI of an individual using the imperial measurement system.",
+        "parameters": {
+          "weight": 70,
+          "height": 1.75
+        },
+        "api_status": "normal_response"
+      },
+      {
+        "category": "Data",
+        "tool": "US ZIP Code to Income",
+        "api": "ZIP code",
+        "api_description": "ZIP code",
+        "parameters": {
+          "zip": "90210"
+        },
+        "api_status": "normal_response"
+      }
+    ]
+  },
+  {
+    "query": "Please calculate my BMI based on 70 kilograms and 1.75 meters tall, while also fetching the income statistics for ZIP code 90210. I'm trying to assess my situation holistically.",
+    "query_id": "2017",
+    "apis": [
+      {
+        "category": "Health_and_Fitness",
+        "tool": "Body Mass Index (BMI) Calculator",
+        "api": "Metric [Kilograms]",
+        "api_description": "This endpoint will calculate the BMI of an individual using the imperial measurement system.",
+        "parameters": {
+          "weight": 70,
+          "height": 1.75
+        },
+        "api_status": "normal_response"
+      },
+      {
+        "category": "Data",
+        "tool": "US ZIP Code to Income",
+        "api": "ZIP code",
+        "api_description": "ZIP code",
+        "parameters": {
+          "zip": "90210"
+        },
+        "api_status": "normal_response"
+      }
+    ]
+  },
+  {
+    "query": "As I review my health and financial profile, could you compute my BMI by using my details—70 kg weight and 1.75 m height—and gather the per-capita income data for the area of ZIP code 90210?",
+    "query_id": "2018",
+    "final_answer": "Your BMI is 22.9, which is classified as Normal. The per-capita income for the area corresponding to ZIP code 90210 (Beverly Hills, CA) is approximately $72,890.",
+    "apis": [
+      {
+        "category": "Health_and_Fitness",
+        "tool": "Body Mass Index (BMI) Calculator",
+        "api": "Metric [Kilograms]",
+        "api_description": "This endpoint will calculate the BMI of an individual using the imperial measurement system.",
+        "parameters": {
+          "weight": 70,
+          "height": 1.75
+        },
+        "api_status": "normal_response"
+      },
+      {
+        "category": "Data",
+        "tool": "US ZIP Code to Income",
+        "api": "ZIP code",
+        "api_description": "ZIP code",
+        "parameters": {
+          "zip": "90210"
+        },
+        "api_status": "normal_response"
+      }
+    ]
+  },
+  {
+    "query": "I'm on the hunt for the latest game deals. Can you show me a list of current game offers and any TikTok challenges related to gaming?",
+    "query_id": "2019",
+    "final_answer": "Here are the latest game-related TikTok challenges:\n\n1. Top 10 Gaming Consoles of 2023: A guide to the best gaming consoles this year. (https://example.com/top-gaming-consoles-2023)\n2. The Evolution of Gaming Graphics: Explore how graphics have progressed in gaming. (https://example.com/evolution-gaming-graphics)\n3. Best Gaming Laptops for Professionals: Reviews top gaming laptops for pro gamers. (https://example.com/best-gaming-laptops)\n4. Upcoming Gaming Releases in 2023: Stay updated with anticipated new gaming titles. (https://example.com/upcoming-gaming-releases)\n5. The Impact of VR on Gaming: How virtual reality is revolutionizing games. (https://example.com/impact-of-vr-on-gaming)\n\nWould you like to see specific current game deals (e.g., PC, console, or indie games)? Let me know your preferences so I can fetch the latest offers for you!",
+    "apis": [
+      {
+        "category": "Gaming",
+        "tool": "CheapShark - Game Deals",
+        "api": "List of Deals",
+        "api_description": "Get a paged list of deals matching any number of criteria, all the filtering parameters are optional",
+        "parameters": {
+          "page": 1
+        },
+        "api_status": "normal_response"
+      },
+      {
+        "category": "Social",
+        "tool": "TikTok_v3",
+        "api": "Challenge",
+        "api_description": "get challenge by hashtag",
+        "parameters": {
+          "hashtag": "gaming"
+        },
+        "api_status": "normal_response"
+      }
+    ]
+  },
+  {
+    "query": "Please provide me with the top game deals right now and fetch any trending TikTok challenges under the gaming hashtag.",
+    "query_id": "2020",
+    "final_answer": "Here are the top game deals right now:\n\n1. LEGO Batman 2: DC Super Heroes - $3.90 (80% off), Very Positive on Steam, Metacritic: 81\n   Deal: https://cdn.cloudflare.steamstatic.com/steam/apps/213330/capsule_sm_120.jpg\n2. LEGO Batman: The Videogame - $3.90 (80% off), Very Positive on Steam, Metacritic: 80\n   Deal: https://cdn.cloudflare.steamstatic.com/steam/apps/21000/capsule_sm_120.jpg\n3. Batman: Arkham Knight - $3.12 (84% off), Very Positive on Steam, Metacritic: 70\n   Deal: https://cdn.cloudflare.steamstatic.com/steam/apps/208650/capsule_sm_120.jpg\n\nTrending TikTok challenges under the gaming hashtag:\n- #gaming: Show us your favorite games, gaming moments, or setups! (11.3B views)\n- #gamergirl: Girls who game unite! Share your gameplay and setups. (6.1B views)\n- #gamer: All things gaming! Tips, tricks, gear, and more. (7.3B views)\n\nThese hashtags are trending and popular among the gaming community on TikTok.",
+    "apis": [
+      {
+        "category": "Gaming",
+        "tool": "CheapShark - Game Deals",
+        "api": "List of Deals",
+        "api_description": "Get a paged list of deals matching any number of criteria, all the filtering parameters are optional",
+        "parameters": {
+          "page": 1
+        },
+        "api_status": "normal_response"
+      },
+      {
+        "category": "Social",
+        "tool": "TikTok_v3",
+        "api": "Challenge",
+        "api_description": "get challenge by hashtag",
+        "parameters": {
+          "hashtag": "gaming"
+        },
+        "api_status": "normal_response"
+      }
+    ]
+  },
+  {
+    "query": "As I explore the world of gaming, I'd like to see the latest offers on PC games along with current challenges featured on TikTok for gamers.",
+    "query_id": "2021",
+    "final_answer": "Here’s what I found for you:\n\n1. Trending TikTok Challenges for Gamers:\n- The trending TikTok challenges feature the latest gaming community activities and creative trends. Current hot topics include challenges using popular sounds and music by creators like 'ice cream sandwich.' These often involve showcasing gaming moments, creative edits, and gameplay highlights. While exact challenge names are not specified, exploring TikTok’s 'gaming' section or searching relevant hashtags like #gaming or #videogames will reveal the most active challenges right now.\n\n2. Latest PC Game Offers:\n- While I attempted to pull specific latest offers for PC games, I recommend checking reputable deal aggregators like CheapShark, Humble Bundle, or Steam for up-to-date deals. Often, popular titles and indie gems are available at significant discounts during weekly or seasonal sales. If there's a particular game you want, let me know and I can fetch current deals for that title!\n\nCombine these by sharing your PC game victories or challenge attempts on TikTok using gaming hashtags to join trending moments and potentially get featured. If you’d like a more tailored list of TikTok gaming challenges or game deals, specify your preferences!",
+    "apis": [
+      {
+        "category": "Gaming",
+        "tool": "CheapShark - Game Deals",
+        "api": "List of Deals",
+        "api_description": "Get a paged list of deals matching any number of criteria, all the filtering parameters are optional",
+        "parameters": {
+          "page": 1
+        },
+        "api_status": "normal_response"
+      },
+      {
+        "category": "Social",
+        "tool": "TikTok_v3",
+        "api": "Challenge",
+        "api_description": "get challenge by hashtag",
+        "parameters": {
+          "hashtag": "gaming"
+        },
+        "api_status": "normal_response"
+      }
+    ]
+  },
+  {
+    "query": "I'm focused on muscle gain and have a half-hour to work out with dumbbells. Can you create a customized workout plan for my intermediate level? Also, I want to calculate my BMI; I'm 75 kg and 1.8 m tall. By the way, could you check how many jobs my target company has posted on LinkedIn?",
+    "query_id": "2022",
+    "apis": [
+      {
+        "category": "Health_and_Fitness",
+        "tool": "Workout Planner",
+        "api": "Get Customized Plan",
+        "api_description": "The /customized endpoint provides a way for users to generate personalized workout plans based on th",
+        "parameters": {
+          "fitness_goals": "muscle gain",
+          "fitness_level": "intermediate",
+          "muscle": "chest",
+          "equipment": "dumbbells",
+          "time": "30 minutes"
+        },
+        "api_status": "normal_response"
+      },
+      {
+        "category": "Health_and_Fitness",
+        "tool": "Body Mass Index (BMI) Calculator",
+        "api": "Metric [Kilograms]",
+        "api_description": "This endpoint will calculate the BMI of an individual using the imperial measurement system.",
+        "parameters": {
+          "weight": 75,
+          "height": 1.8
+        },
+        "api_status": "normal_response"
+      },
+      {
+        "category": "Data",
+        "tool": "Fresh LinkedIn Profile Data",
+        "api": "Get Company Jobs Count",
+        "api_description": "Get number of opening jobs the company posted on LinkedIn. **1 credit per call.**",
+        "parameters": {
+          "company_id": "123456"
+        },
+        "api_status": "normal_response"
+      }
+    ]
+  },
+  {
+    "query": "Please help me design a 30-minute workout plan targeting chest muscle growth with dumbbells, suitable for my intermediate level. Additionally, I need to find out my BMI using my height of 1.8 meters and weight of 75 kilograms. Lastly, can you get the job opening count for my selected company on LinkedIn?",
+    "query_id": "2023",
+    "final_answer": "Here is your customized 30-minute intermediate chest dumbbell workout plan:\n\nWarm Up:\n- Jumping jacks: 5 minutes\n- Arm circles: 3 minutes\n\nMain Exercises:\n- Dumbbell bench press: 3 sets of 12-15 reps\n- Dumbbell flyes: 3 sets of 12-15 reps\n- Incline dumbbell bench press: 3 sets of 12-15 reps\n- Dumbbell pullover: 3 sets of 12-15 reps\n\nCool Down:\n- Shoulder stretches: 5 minutes\n- Chest stretches: 5 minutes\n\nYour BMI is 23.1, classified as Normal.\n\nTo get the job opening count for your selected company on LinkedIn, please provide the company's LinkedIn internal ID.",
+    "apis": [
+      {
+        "category": "Health_and_Fitness",
+        "tool": "Workout Planner",
+        "api": "Get Customized Plan",
+        "api_description": "The /customized endpoint provides a way for users to generate personalized workout plans based on th",
+        "parameters": {
+          "fitness_goals": "muscle gain",
+          "fitness_level": "intermediate",
+          "muscle": "chest",
+          "equipment": "dumbbells",
+          "time": "30 minutes"
+        },
+        "api_status": "normal_response"
+      },
+      {
+        "category": "Health_and_Fitness",
+        "tool": "Body Mass Index (BMI) Calculator",
+        "api": "Metric [Kilograms]",
+        "api_description": "This endpoint will calculate the BMI of an individual using the imperial measurement system.",
+        "parameters": {
+          "weight": 75,
+          "height": 1.8
+        },
+        "api_status": "normal_response"
+      },
+      {
+        "category": "Data",
+        "tool": "Fresh LinkedIn Profile Data",
+        "api": "Get Company Jobs Count",
+        "api_description": "Get number of opening jobs the company posted on LinkedIn. **1 credit per call.**",
+        "parameters": {
+          "company_id": "123456"
+        },
+        "api_status": "normal_response"
+      }
+    ]
+  },
+  {
+    "query": "I'm aiming to gain muscle and have only 30 minutes to train with dumbbells. I'd appreciate a tailored workout plan suited for my intermediate experience. Furthermore, I need my BMI calculated – my weight is 75 kg and height 1.8 m. Lastly, I'd like to know how many job openings there are at a specific company on LinkedIn.",
+    "query_id": "2024",
+    "apis": [
+      {
+        "category": "Health_and_Fitness",
+        "tool": "Workout Planner",
+        "api": "Get Customized Plan",
+        "api_description": "The /customized endpoint provides a way for users to generate personalized workout plans based on th",
+        "parameters": {
+          "fitness_goals": "muscle gain",
+          "fitness_level": "intermediate",
+          "muscle": "chest",
+          "equipment": "dumbbells",
+          "time": "30 minutes"
+        },
+        "api_status": "normal_response"
+      },
+      {
+        "category": "Health_and_Fitness",
+        "tool": "Body Mass Index (BMI) Calculator",
+        "api": "Metric [Kilograms]",
+        "api_description": "This endpoint will calculate the BMI of an individual using the imperial measurement system.",
+        "parameters": {
+          "weight": 75,
+          "height": 1.8
+        },
+        "api_status": "normal_response"
+      },
+      {
+        "category": "Data",
+        "tool": "Fresh LinkedIn Profile Data",
+        "api": "Get Company Jobs Count",
+        "api_description": "Get number of opening jobs the company posted on LinkedIn. **1 credit per call.**",
+        "parameters": {
+          "company_id": "123456"
+        },
+        "api_status": "normal_response"
+      }
+    ]
+  },
+  {
+    "query": "Could you please validate the email example@mail.com for me while also checking the list of holidays in the US for the year 2023?",
+    "query_id": "2025",
+    "apis": [
+      {
+        "category": "Communication",
+        "tool": "Email Checker and Validator",
+        "api": "Check Email",
+        "api_description": "Just paste the Email Address you want to validate and wait for the results",
+        "parameters": {
+          "email": "example@mail.com"
+        },
+        "api_status": "normal_response"
+      },
+      {
+        "category": "Events",
+        "tool": "Holidays by API-Ninjas",
+        "api": "/v1/holidays",
+        "api_description": "API Ninjas Holidays endpoint",
+        "parameters": {
+          "year": 2023,
+          "country": "US"
+        },
+        "api_status": "normal_response"
+      }
+    ]
+  },
+  {
+    "query": "I need to verify the email example@mail.com and find out what holidays are coming up in the US for 2023. Can you help with that?",
+    "query_id": "2026",
+    "apis": [
+      {
+        "category": "Communication",
+        "tool": "Email Checker and Validator",
+        "api": "Check Email",
+        "api_description": "Just paste the Email Address you want to validate and wait for the results",
+        "parameters": {
+          "email": "example@mail.com"
+        },
+        "api_status": "normal_response"
+      },
+      {
+        "category": "Events",
+        "tool": "Holidays by API-Ninjas",
+        "api": "/v1/holidays",
+        "api_description": "API Ninjas Holidays endpoint",
+        "parameters": {
+          "year": 2023,
+          "country": "US"
+        },
+        "api_status": "normal_response"
+      }
+    ]
+  },
+  {
+    "query": "I'm planning some marketing emails and want to ensure the address example@mail.com is legitimate. Additionally, I'd like to know the holiday schedule in the US for this year, 2023.",
+    "query_id": "2027",
+    "apis": [
+      {
+        "category": "Communication",
+        "tool": "Email Checker and Validator",
+        "api": "Check Email",
+        "api_description": "Just paste the Email Address you want to validate and wait for the results",
+        "parameters": {
+          "email": "example@mail.com"
+        },
+        "api_status": "normal_response"
+      },
+      {
+        "category": "Events",
+        "tool": "Holidays by API-Ninjas",
+        "api": "/v1/holidays",
+        "api_description": "API Ninjas Holidays endpoint",
+        "parameters": {
+          "year": 2023,
+          "country": "US"
+        },
+        "api_status": "normal_response"
+      }
+    ]
+  },
+  {
+    "query": "Could you provide me with the word of the day from various sources, and also analyze the sentiment of my excitement about learning something new today?",
+    "query_id": "2028",
+    "final_answer": "Here are the words of the day from various sources:\n\n1. Source #1 (June 30, 2023): \"miasma\" – a poisonous cloud of vapor produced by decaying organic matter.\n2. Source #2 (June 30, 2023): Word unavailable, but meaning given for \"facilitate\" – to help bring something about.\n3. Source #3 (June 29, 2023): Word unavailable, but meaning provided is \"petrichor\" – the smell of rain on dry ground, produced by oils from vegetation.\n4. Source #4 (April 18, 2023): \"shell\" – noun: a hard rigid usually large covering of an animal.\n5. Source #5 (June 30, 2023): \"malleable\" – adjective, meaning: (1) capable of being stretched or bent into different shapes; (2) capable of being easily changed or influenced.\n\nSentiment analysis of your phrase \"my excitement about learning something new today\":\n- Sentiment: Positive\n- Positive word detected: \"excitement\"\n- Sentiment score: 3 (comparative score: 0.43)\n\nYour excitement about learning is truly a positive feeling! If you want a current word of the day, let me know and I can provide one from a specific source.",
+    "apis": [
+      {
+        "category": "Education",
+        "tool": "Word of the day",
+        "api": "Get word of the day from multiple sources",
+        "api_description": "Gets word of the day from mutiple sources in one go easy.",
+        "parameters": {},
+        "api_status": "normal_response"
+      },
+      {
+        "category": "Artificial_Intelligence_Machine_Learning",
+        "tool": "Text Sentiment Analysis",
+        "api": "Text Sentiment Analysis",
+        "api_description": "Analyse the Sentiment of the given text context",
+        "parameters": {
+          "text": "I'm excited to learn something new today!"
+        },
+        "api_status": "normal_response"
+      }
+    ]
+  },
+  {
+    "query": "Give me the word of the day from multiple resources and check how my statement about learning something new feels, please.",
+    "query_id": "2029",
+    "apis": [
+      {
+        "category": "Education",
+        "tool": "Word of the day",
+        "api": "Get word of the day from multiple sources",
+        "api_description": "Gets word of the day from mutiple sources in one go easy.",
+        "parameters": {},
+        "api_status": "normal_response"
+      },
+      {
+        "category": "Artificial_Intelligence_Machine_Learning",
+        "tool": "Text Sentiment Analysis",
+        "api": "Text Sentiment Analysis",
+        "api_description": "Analyse the Sentiment of the given text context",
+        "parameters": {
+          "text": "I'm excited to learn something new today!"
+        },
+        "api_status": "normal_response"
+      }
+    ]
+  },
+  {
+    "query": "I'm eager to enhance my vocabulary! Please fetch the word of the day from different sources and evaluate the sentiment of my expression of excitement regarding learning something new.",
+    "query_id": "2030",
+    "apis": [
+      {
+        "category": "Education",
+        "tool": "Word of the day",
+        "api": "Get word of the day from multiple sources",
+        "api_description": "Gets word of the day from mutiple sources in one go easy.",
+        "parameters": {},
+        "api_status": "normal_response"
+      },
+      {
+        "category": "Artificial_Intelligence_Machine_Learning",
+        "tool": "Text Sentiment Analysis",
+        "api": "Text Sentiment Analysis",
+        "api_description": "Analyse the Sentiment of the given text context",
+        "parameters": {
+          "text": "I'm excited to learn something new today!"
+        },
+        "api_status": "normal_response"
+      }
+    ]
+  },
+  {
+    "query": "Can you help me find the address for Central Park, New York? Also, I'd like to reverse geocode the coordinates for my meeting at 40.730610 latitude and -73.935242 longitude.",
+    "query_id": "2031",
+    "final_answer": "Here is the information you requested:\n\n1. Central Park, New York Address: Central Park, New York County, New York, United States (approximate coordinates: 40.7827725, -73.9653627)\n\n2. The reverse geocoded address for coordinates 40.730610 (lat), -73.935242 (lng) is: 37 Railroad Ave, Long Island City, NY 11101, USA.",
+    "apis": [
+      {
+        "category": "Mapping",
+        "tool": "Forward & Reverse Geocoding",
+        "api": "ReverseGeocoding",
+        "api_description": "Find address or place by latitude and longitude",
+        "parameters": {
+          "lon": "-73.935242",
+          "lat": "40.730610"
+        },
+        "api_status": "normal_response"
+      },
+      {
+        "category": "Mapping",
+        "tool": "Forward & Reverse Geocoding",
+        "api": "GeocodingSearch",
+        "api_description": "Free-form query forward geocoding.",
+        "parameters": {
+          "q": "Central Park, New York"
+        },
+        "api_status": "normal_response"
+      }
+    ]
+  },
+  {
+    "query": "I'd like to know the location of Central Park in New York City. Additionally, could you provide me with the address corresponding to the coordinates 40.730610, -73.935242?",
+    "query_id": "2032",
+    "final_answer": "Central Park is located in Manhattan, New York City, NY. Its main address is: Central Park, New York, NY 10024, USA.\n\nThe address corresponding to the coordinates 40.730610, -73.935242 is: 37 Railroad Ave, Long Island City, NY 11101, USA.",
+    "apis": [
+      {
+        "category": "Mapping",
+        "tool": "Forward & Reverse Geocoding",
+        "api": "ReverseGeocoding",
+        "api_description": "Find address or place by latitude and longitude",
+        "parameters": {
+          "lon": "-73.935242",
+          "lat": "40.730610"
+        },
+        "api_status": "normal_response"
+      },
+      {
+        "category": "Mapping",
+        "tool": "Forward & Reverse Geocoding",
+        "api": "GeocodingSearch",
+        "api_description": "Free-form query forward geocoding.",
+        "parameters": {
+          "q": "Central Park, New York"
+        },
+        "api_status": "normal_response"
+      }
+    ]
+  },
+  {
+    "query": "I am planning a visit to Central Park, New York, so I'd appreciate you finding the exact address for that location. Also, please reverse geocode the coordinates I have: latitude 40.730610 and longitude -73.935242.",
+    "query_id": "2033",
+    "final_answer": "The exact address for Central Park, New York is: Central Park, New York County, New York, United States. \n\nThe reverse geocoded address for the coordinates (latitude 40.730610, longitude -73.935242) is: 37 Railroad Ave, Long Island City, NY 11101, USA.",
+    "apis": [
+      {
+        "category": "Mapping",
+        "tool": "Forward & Reverse Geocoding",
+        "api": "ReverseGeocoding",
+        "api_description": "Find address or place by latitude and longitude",
+        "parameters": {
+          "lon": "-73.935242",
+          "lat": "40.730610"
+        },
+        "api_status": "normal_response"
+      },
+      {
+        "category": "Mapping",
+        "tool": "Forward & Reverse Geocoding",
+        "api": "GeocodingSearch",
+        "api_description": "Free-form query forward geocoding.",
+        "parameters": {
+          "q": "Central Park, New York"
+        },
+        "api_status": "normal_response"
+      }
+    ]
+  },
+  {
+    "query": "Could you help me find all current game giveaways? Additionally, I'd like to generate popular hashtags related to free games to promote my posts. Thanks!",
+    "query_id": "2034",
+    "final_answer": "Here are some current live game giveaways you can grab now:\n\n1. GRIME (Epic Games) Giveaway – Worth $24.99\n   - Grab GRIME for free via Epic Games Store! GRIME is an Adventure RPG game with Souls-like action.\n   - How to claim: Login to Epic Games Store and add the game to your library.\n   - Giveaway link: https://www.gamerpower.com/grime-epic-games-giveaway\n\n2. Robot Robert (IndieGala) Giveaway – Worth $11.99\n   - Get Robot Robert for free on IndieGala! A 2D action platformer where you fight aliens.\n   - How to claim: Login to IndieGala, scroll down, and add to your library.\n   - Giveaway link: https://www.gamerpower.com/robot-robert\n\n3. Soldiers Lost Forever (1914-1918)\n   - Claim this casual WW1-themed game for free! (Details and link available on main GamerPower site)\n\nTo promote your posts about free games, here are some popular hashtags you can use:\n#FreeGames #GameGiveaway #GamingDeals #EpicGames #IndieGames #FreeToPlay #GamerLife #GamersUnite #PCGaming #GameCollectors\n\nYou can combine these hashtags with the specific game titles or platforms for even wider reach! If you need more giveaways or customized hashtags, let me know.",
+    "apis": [
+      {
+        "category": "Gaming",
+        "tool": "GamerPower",
+        "api": "Live giveaways by type",
+        "api_description": "Get live giveaways by type, eg: game, loot, beta",
+        "parameters": {
+          "type": "game"
+        },
+        "api_status": "normal_response"
+      },
+      {
+        "category": "Social",
+        "tool": "Instagram Hashtags",
+        "api": "Generate",
+        "api_description": "Generate Hashtags",
+        "parameters": {
+          "keyword": "free games"
+        },
+        "api_status": "normal_response"
+      }
+    ]
+  }
+]
