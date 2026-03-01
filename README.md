@@ -65,15 +65,12 @@ chmod +x run.sh
 - **Memory**: 16GB+ RAM recommended for optimal performance
 
 ## 📁 Repository Structure
+```
 ACMA/
 ├── acma/ # Core framework implementation
 │ ├── arguments.py # CLI argument parsing
 │ ├── main.py # Entry point for ACMA
 │ ├── utils.py # Utility functions
-│ ├── models.py # Neural model definitions
-│ ├── tool_task.py # Tool task management
-│ ├── retrieval.py # Experience retrieval mechanisms
-│ ├── [additional core modules] # Supporting implementation files
 │ └── ...
 │
 ├── stabletoolbench/ # Tool learning and evaluation toolkit
@@ -85,8 +82,6 @@ ACMA/
 │ ├── Advertising/
 │ ├── Business/
 │ ├── Finance/
-│ ├── Health_and_Fitness/
-│ ├── Social/
 │ ├── ... (additional categories)
 │ └── eCommerce/
 │
@@ -96,3 +91,4 @@ ACMA/
 │ └── [timestamped checkpoints]/ # Training artifacts
 │
 └── requirements.txt # Python dependencies
+```
