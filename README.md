@@ -37,9 +37,8 @@ bash run.sh
 This script will automatically handle the environment setup, API configuration, and execution steps for you.
 
 
-### Explanation:
-- **Environment Setup**: The first part details creating the Conda environment, activating it, and installing dependencies.
-- **API Configuration**: This section instructs the user to modify the API key and base URL, followed by navigating to the `StableToolBench-master` directory and running the tool.
-- **`run.sh`**: Provides a convenient way to automate the process, with a simple command to execute the script.
+### Key Points:
+- Ensure that each block of code is wrapped in triple backticks (```) followed by the language identifier (`bash` or `python`) to ensure proper syntax highlighting.
+- The `README` sections are now properly formatted, and everything should appear as intended on GitHub.
 
-You can now paste this directly into your `README` on GitHub!
+Let me know if you need further assistance!
