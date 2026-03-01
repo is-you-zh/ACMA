@@ -25,6 +25,7 @@ conda activate acma
 
 # Install required packages
 pip install -r requirements.txt
+```
 
 ## 🛠️ StableToolBench Integration
 
