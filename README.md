@@ -14,6 +14,24 @@ StableToolBench serves as the foundational toolkit for tool learning and evaluat
 
 ## 🚀 Getting Started
 
+### Environment Configuration
+
+Begin by setting up a dedicated Python environment with all necessary dependencies:
+
+```bash
+# Create and activate a fresh conda environment
+conda create -n acma python=3.10 -y
+conda activate acma
+
+# Install required packages
+pip install -r requirements.txt
+
+## 🛠️ StableToolBench Integration
+
+StableToolBench serves as the foundational toolkit for tool learning and evaluation within the ACMA ecosystem. It provides a robust and stable environment for testing and benchmarking multi-tool interactions.
+
+## 🚀 Getting Started
+
 ### 1. Environment Configuration
 
 Begin by setting up a dedicated Python environment with all necessary dependencies:
