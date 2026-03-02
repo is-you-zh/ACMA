@@ -80,9 +80,8 @@ ACMA/
 │
 ├── tools/                         # Comprehensive API tool collection
 │   ├── Advertising/               
-│   ├── Business/                  
-│   ├── Finance/                   
-│   ├── ... (additional categories)
+│   ├── Business/                                  
+│   ├── ... 
 │   └── eCommerce/                 
 │
 ├── transformers/                   # Pre-trained language models
